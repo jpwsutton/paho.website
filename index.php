@@ -19,6 +19,7 @@
 	$pageAuthor		= "Your name";
 	$pageTitle 		= "Paho";
 	
+	$App->AddExtraHtmlHeader("<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>");
 	
 	// 	# Paste your HTML content between the EOHTML markers!
 	$html = file_get_contents('pages/_index.html');

@@ -10,6 +10,9 @@
 	include($App->getProjectCommon());
 
 	$pageTitle 		= "Paho - Developers";
+	
+	// 	# Added this line per Bug 357115 – Setting up banner for emf query2 project website
+	$App->AddExtraHtmlHeader("<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>");
 
 	$html = file_get_contents('_index.html');
 

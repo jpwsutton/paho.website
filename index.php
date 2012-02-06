@@ -17,7 +17,7 @@
 	# Define these here, or in _projectCommon.php for site-wide values
 	$pageKeywords	= "eclipse, project";
 	$pageAuthor		= "Your name";
-	$pageTitle 		= "Paho";
+	$pageTitle 		= "Paho Project";
 	
 	$App->AddExtraHtmlHeader("<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>");
 	

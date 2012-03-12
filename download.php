@@ -19,9 +19,9 @@
 <p>The Paho project is in <a href="http://wiki.eclipse.org/Development_Resources/HOWTO/Incubation_Phase#.281.29_What_Is_Incubation.3F">Incubator Status</a> and is using the <a href="http://wiki.eclipse.org/Development_Resources/HOWTO/Parallel_IP_Process">Eclipse Parallel IP Process</a> </p>
 
 <h3>MQTT Client: Initial Release for C Language</h3>
-<p><b>A stable initial release of a C client implementation of the MQTT Protocol is now avaiable in the 
+<p>A stable initial release of a C client implementation of the MQTT Protocol is now avaiable in the 
 <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/">Git repository: </a> http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/
-</b> <br />
+<br />
 <!--
 <b>ZIP file: </b><a href="/downloads/download.php?file=/myproject/file.zip">file.zip</a> (10 MiB)</p>
 -->

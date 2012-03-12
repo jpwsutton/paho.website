@@ -10,21 +10,27 @@
  *    
  *******************************************************************************/
 
-	$pageTitle 		= "MyProject - Download";
+	$pageTitle 		= "Paho Downloads";
 
 	$html  = <<<EOHTML
 <div id="midcolumn">
 <h2>$pageTitle</h2>
 <p>All downloads are provided under the terms and conditions of the <a href="/legal/epl/notice.php">Eclipse Foundation Software User Agreement</a> unless otherwise specified.</p>
+<p>The Paho project is in <a href="http://wiki.eclipse.org/Development_Resources/HOWTO/Incubation_Phase#.281.29_What_Is_Incubation.3F">Incubator Status</a> and is using the <a href="http://wiki.eclipse.org/Development_Resources/HOWTO/Parallel_IP_Process">Eclipse Parallel IP Process</a> </p>
 
-<h3>Galileo - Eclipse 3.5</h3>
-<p><b>Update site:</b> http://download.eclipse.org/myproject/<br />
+<h3>MQTT Client: Initial Release for C Language</h3>
+<p><b>A stable initial release of a C client implementation of the MQTT Protocol is now avaiable in the 
+<a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/">Git repository: </a> http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/
+</b> <br />
+<!--
 <b>ZIP file: </b><a href="/downloads/download.php?file=/myproject/file.zip">file.zip</a> (10 MiB)</p>
+-->
 
+<!--
 <h3>Helios - Eclipse 3.6 (unreleased)</h3>
 <p><b>Update site:</b> http://download.eclipse.org/myproject/<br />
 <b>ZIP file: </b><a href="/downloads/download.php?file=/myproject/file.zip">file.zip</a> (10 MiB)</p>
-
+-->
 
 </div>
 EOHTML;

@@ -22,9 +22,18 @@
 <p>A stable initial release of a C client implementation of the MQTT Protocol is now avaiable in the 
 <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/">Git repository: </a> http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/
 <br />
+
+<h3>MQTT Client: Initial Release for Java Language</h3>
+<p>A stable initial release of a Java client implementation of the MQTT Protocol is now avaiable in the 
+<a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.java.git/">Git repository: </a> http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.java.git/
+<br />
 <!--
 <b>ZIP file: </b><a href="/downloads/download.php?file=/myproject/file.zip">file.zip</a> (10 MiB)</p>
 -->
+<p> Andy Piper has posted a  
+<a
+href="http://andypiper.co.uk/2012/03/10/paho-gets-started/">quick start guide for the MQTT C Client
+</a></p>
 
 <!--
 <h3>Helios - Eclipse 3.6 (unreleased)</h3>

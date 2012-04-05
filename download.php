@@ -42,6 +42,10 @@ href="http://andypiper.co.uk/2012/03/10/paho-gets-started/">quick start guide fo
 -->
 
 </div>
+	
+44 	<div id="rightcolumn">
+45 	$incubation
+46 	</div>
 EOHTML;
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);

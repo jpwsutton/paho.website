@@ -11,7 +11,7 @@
  *******************************************************************************/
 
 $pageTitle 		= "Paho Support";
-$project 		= "Paho";
+
 
 $mailingList  = "paho-dev";
 $issueTracker = normalizeHttpUrl($project->getBugzillaUrl()); 

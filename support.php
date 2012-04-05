@@ -11,10 +11,10 @@
  *******************************************************************************/
 
 $pageTitle 		= "Paho Support";
-
+$project 		= "Paho";
 
 $mailingList  = "paho-dev";
-$issueTracker = normalizeHttpUrl($project->getBugzillaUrl()); 
+$issueTracker = normalizeHttpUrl($project->getBugzillaUrl());  
 
 $html  = <<<EOHTML
 <div id="midcolumn">

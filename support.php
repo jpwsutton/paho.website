@@ -11,10 +11,9 @@
  *******************************************************************************/
 
 $pageTitle 		= "Paho Support";
-$project 		= "Paho";
 
 $mailingList  = "paho-dev";
-$issueTracker = normalizeHttpUrl($project->getBugzillaUrl());  
+  
 
 $html  = <<<EOHTML
 <div id="midcolumn">
@@ -34,7 +33,7 @@ $html  = <<<EOHTML
 <h3 id="issues">Issue Tracker</h3>
 <p>
   If you encountered a bug or have a feature request, please fill a sufficiently detailed issue in our
-  <a href="$issueTracker">issue tracker</a>.
+  <a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Paho">issue tracker</a>.
   Ideally, your description and attached logs should enable us to reproduce your issue.
 </p>
 <p>

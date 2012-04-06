@@ -36,11 +36,15 @@ a strong {
 #introText p.left {
 	width: 48%;
 	float: left;
+	margin-right: 2%;
+	text-align: justify;
 }
 
 #introText p.right {
 	width: 48%;
+	position: relative;
 	float: right;
+	text-align: justify;
 }
 
 #feature_1 {
@@ -64,14 +68,14 @@ a strong {
 	clear: both;
 	float: left;
 	width: 63%;
-	margin-right: 3%;	
+	margin-right: 3%;
 }
 
 #feature_more {
 	float: left;
 	width: 30%;
 }
-	
+
 #bigbuttons {
 	position: relative;
 	left: 420px;
@@ -115,7 +119,7 @@ a strong {
    background:transparent url("images/buttonDownload_sel.png") no-repeat 0 0;
 }
 
-   
+
 #buttonDocumentation {
    background:transparent url("images/buttonDocumentation.png") no-repeat 0 0;
    top: 87px;
@@ -159,7 +163,7 @@ a strong {
 	list-style-image: none;
 }
 
-	
+
 #headlines div.title {
 	display: inline;
 	margin-right: 0.5em;
@@ -168,23 +172,87 @@ a strong {
 #headlines div.meta {
 	display: inline;
 	color: #444444;
-	font-size: smaller;  
+	font-size: smaller;
 }
 
 #headlines div.item {
 	display: block;
 	}
-	
+
 #screencast {
 	margin-bottom: 10px;
 }
 
 #newAndNoteworthy a {
    display: block;
-   width:218px; 
+   width:218px;
    height:51px;
    padding: 0;
    text-indent: -9000px;
    background:transparent url("images/bannerNewAndNoteworthy08M4.png") no-repeat 0 0;
    margin-top: 10px;
 }
+
+#paho h1,#paho h2,#paho h3 {
+	border: none;
+	font-family: Avant Garde, Verdana, Arial;
+	line-height: 1em;
+/* 	letter-spacing: 0.1em; */
+}
+
+#paho,#paho p {
+/* 	font-family: Goergia; */
+/* 	font-size: 1.2em; */
+	text-align: justify;
+}
+
+#paho a {
+	color: #7f354d;
+}
+
+#paho h2 {
+	font-size: 1.5em;
+	padding: 10px 5px 10px 5px;
+}
+
+#paho h1 {
+	font-size: 2em;
+	text-align: center;
+	padding: 15px 5px 15px 5px;
+}
+
+#paho-logo-overlay {
+  position: relative;
+  width: 231px;
+  height: 143px;
+  bottom: 154px;
+  left: 45px;
+  float: left;
+  margin-bottom: -154px;
+}
+
+/*******************/
+/* Twitter widget */
+/*******************/
+.twtr-hd h3 {
+	clear: none;
+}
+
+.twtr-tweet-text p {
+	text-align: left !important;
+}
+/*******************/
+
+
+/********************/
+/* New & Noteworthy */
+/********************/
+
+#header-links {margin-left: 2em;}
+table.news td {border-top: solid thin black; padding:10px}
+table.news tr {vertical-align: top;}
+table.news tr td.section {font-size: 20px; font-weight: bold;}
+table.news tr td.title {vertical-align: top; width: 30%; font-weight: bold;}
+table.news tr td.content {vertical-align: top; width: 70%;}
+
+

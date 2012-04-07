@@ -6,9 +6,7 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
- * Contributors:
- *		Eclipse Foundation - Initial version
- *		Stephan Eberle - Changes for Sphinx
+
  *******************************************************************************/
 
 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");

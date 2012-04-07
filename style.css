@@ -210,6 +210,11 @@ a strong {
 	color: #7f354d;
 }
 
+#paho h3 {
+	font-size: 1.2em;
+	padding: 10px 5px 10px 5px;
+}
+
 #paho h2 {
 	font-size: 1.5em;
 	padding: 10px 5px 10px 5px;

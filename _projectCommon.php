@@ -56,6 +56,7 @@
 	# To enable occasional Eclipse Foundation Promotion banners on your pages (EclipseCon, etc)
 	$App->Promotion = TRUE;
 
+	
 	# If you have Google Analytics code, use it here
-	$App->SetGoogleAnalyticsTrackingCode("UA-594061-9");
+	# $App->SetGoogleAnalyticsTrackingCode("UA-594061-9");
 ?>

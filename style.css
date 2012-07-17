@@ -100,18 +100,15 @@ ORIGINAL
 	top: -170px;
 }
 #homebutton {
-	position: absolute;
-	left: 40px;
-	top: 180px;
+	position: relative;
+	left: 0px;
+	top: 0px;
 }
 
 #bigbuttons h3{
 	visibility: hidden;
 }
-#logo a{
-	
-	
-}
+
 
 #bigbuttons a {
 }
@@ -124,7 +121,8 @@ ORIGINAL
    margin: 0;
 }
 
-#bigbuttons a:hover, #logo a:hover {
+
+#bigbuttons a:hover{
 	text-decoration: none;
 }
 
@@ -132,14 +130,7 @@ ORIGINAL
 CHANGE FOR 'HOME BUTTON ON ALL PAGES
 This block below puts button logo in the right place and replace 'HOME' text with the Paho logo image
 */
-#logo a {
-   display: block;
-   height:175px; width:440px;
-   padding: 0;
-   margin: 20px;
-   text-indent: -9000px;
-   position: absolute;
-}
+
 #bigbuttons a{
    display: block;
    height:77px; width:250px;
@@ -149,15 +140,23 @@ This block below puts button logo in the right place and replace 'HOME' text wit
    position: absolute;
 }
 
+#bigbuttons a#pahoLogo {
+   display: block;
+   height:175px; width:440px;
+   padding: 0;
+   margin: 0px;
+   text-indent: -9000px;
+   position: absolute;
 
+}
 /*
 CHANGE FOR 'HOME BUTTON ON ALL PAGES
 This block below pulls in the Paho logo image
 */
 #pahoLogo{
    background:transparent url("images/pahoLogo.png") no-repeat 0 0;
-   top: 130px;
-   left: 55px;
+	top:0px;
+	left:-410px;
 }
 
 

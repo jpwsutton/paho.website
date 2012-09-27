@@ -21,11 +21,15 @@
     <html:p>The MQTT Eclipse Client View also the Java client to run in the Eclipse IDE</html:p>
     <internationalization>
        <html:p>
-        None of the Dash deliverables are internationalized.
+        None of the Paho deliverables are internationalized.
         </html:p>
-    </internationalization>
+  </internationalization>
   </target_environments>
   <compatibility_with_previous_releases/>
+         <html:p>
+        First Incubator Release.
+        </html:p>
+  </compatibility_with_previous_releases>
   
   <themes_and_priorities>
     <preamble>
@@ -49,15 +53,19 @@ the Eclipse Build/Release process and tools including Tycho
 Providing key new client functionality and platform support.
          </html:p>
       </description>
-      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=paho"></committed>
+         <html:p>
+        bugzilla list tbd
+        </html:p>
     </theme>
-    <theme name="Make The Portal More Of A Home">
+    <theme name="M2M Package">
       <description>
         <html:p>
 Support for the M2M Eclipse Package and the Kepler release.
         </html:p>
       </description>
-      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=paho"></committed>
+        <html:p>
+        bugzilla list tbd
+        </html:p>
     </theme>
   </themes_and_priorities>
   <appendix/>

@@ -19,12 +19,14 @@
   </release_milestones>
   <target_environments><html:p>The Paho C, Java and Lua clients are runtime components to be built and installed inthe user's runtime environment</html:p>
     <html:p>The MQTT Eclipse Client View also the Java client to run in the Eclipse IDE</html:p>
-    <internationalization>
+
+  <internationalization>
        <html:p>
         None of the Paho deliverables are internationalized.
         </html:p>
   </internationalization>
-  </target_environments>
+    </target_environments>
+
   <compatibility_with_previous_releases>
          <html:p>
         First Incubator Release.

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>
+<plan xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml">
+  <release projectid="technology.dash" version="1.0"/>
+    <introduction>
+    <html:p>The Paho project will target the Eclipse Kepler release (June 26th, 2013)
+     with a 0.9 release under Incubator status, and two intermediate
+      releases in 4Q12 and 1Q13.</html:p>
+    
+  </introduction>
+  <release_deliverables>
+    <html:p>The initial Paho release is comprised of MQTT clients and Sample/Example code.</html:p>
+  </release_deliverables>
+  <release_milestones>
+    <milestone date="4Q2012" milestone="M1"><html:p>0.1 Release</html:p></milestone>
+    <milestone date="1Q2013" milestone="M2"><html:p>0.x Release</html:p></milestone>
+    <milestone date="2Q2013" milestone="M3"><html:p>0.9 Release</html:p></milestone>
+    <postamble/>
+  </release_milestones>
+  <target_environments><html:p>The Paho C, Java and Lua clients are runtime components to be built and installed inthe user's runtime environment</html:p>
+    <html:p>The MQTT Eclipse Client View also the Java client to run in the Eclipse IDE</html:p>
+    <internationalization>
+       <html:p>
+        None of the Dash deliverables are internationalized.
+        </html:p>
+    </internationalization>
+  </target_environments>
+  <compatibility_with_previous_releases/>
+  
+  <themes_and_priorities>
+    <preamble>
+     <html:p>
+Paho is an incubator project. This first 
+release is targeted at providing client implementations of the MQTT protocol.
+     </html:p>
+    </preamble>
+    <theme name="Snapshot Release">
+      <description>
+        <html:p>
+This release will be as an “update site” with the primary goal learn and exercise 
+the Eclipse Build/Release process and tools including Tycho 
+        </html:p>
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=paho"></committed>
+    </theme>
+    <theme name="Function Update">
+      <description>
+         <html:p>
+Providing key new client functionality and platform support.
+         </html:p>
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=paho"></committed>
+    </theme>
+    <theme name="Make The Portal More Of A Home">
+      <description>
+        <html:p>
+Support for the M2M Eclipse Package and the Kepler release.
+        </html:p>
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=paho"></committed>
+    </theme>
+  </themes_and_priorities>
+  <appendix/>
+</plan>

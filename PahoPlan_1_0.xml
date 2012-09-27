@@ -53,7 +53,9 @@ the Eclipse Build/Release process and tools including Tycho
 Providing key new client functionality and platform support.
          </html:p>
       </description>
+      <!--
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=paho"></committed>
+      -->
     </theme>
     <theme name="M2M Package">
       <description>
@@ -61,7 +63,9 @@ Providing key new client functionality and platform support.
 Support for the M2M Eclipse Package and the Kepler release.
         </html:p>
       </description>
+      <!--
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?quicksearch=paho"></committed>
+      -->
     </theme>
   </themes_and_priorities>
   <appendix/>

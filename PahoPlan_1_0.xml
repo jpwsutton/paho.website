@@ -25,7 +25,7 @@
         </html:p>
   </internationalization>
   </target_environments>
-  <compatibility_with_previous_releases/>
+  <compatibility_with_previous_releases>
          <html:p>
         First Incubator Release.
         </html:p>

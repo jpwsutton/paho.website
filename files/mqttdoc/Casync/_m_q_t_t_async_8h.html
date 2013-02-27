@@ -41,7 +41,7 @@
   </div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="dir_04ba2b29eb85f4b576584b1cee9b3d5c.html">icraggs</a></li><li class="navelem"><a class="el" href="dir_4437530784738d29773ea56e1166968d.html">work</a></li><li class="navelem"><a class="el" href="dir_8ae05d01d59d64877adb1bf945562675.html">paho</a></li><li class="navelem"><a class="el" href="dir_6d8887cbffded308c0dd94ab7344d8ed.html">org.eclipse.paho.mqtt.c</a></li><li class="navelem"><a class="el" href="dir_36a549629d6c6f0b798d7667a5458ecf.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="dir_04ba2b29eb85f4b576584b1cee9b3d5c.html">icraggs</a></li><li class="navelem"><a class="el" href="dir_1553a1616aada1674c1cc57ab259ccc2.html">workspaces</a></li><li class="navelem"><a class="el" href="dir_975dde53bda7112ee4a15da907d2f225.html">mqrtc</a></li><li class="navelem"><a class="el" href="dir_a2fe7ccde48f3450a74682bac09034ab.html">mqttv3c</a></li><li class="navelem"><a class="el" href="dir_ca7bec779e3204a06112bd82f195c541.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -622,14 +622,14 @@ Functions</h2></td></tr>
 <p>This function creates an MQTT client ready for connection to the specified server and using the specified persistent storage (see MQTTAsync_persistence). See also <a class="el" href="_m_q_t_t_async_8h.html#ad5562f9dc71fbd93d25ad20b328cb887">MQTTAsync_destroy()</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">handle</td><td>A pointer to an ::MQTTClient handle. The handle is populated with a valid client reference following a successful return from this function. </td></tr>
+    <tr><td class="paramname">handle</td><td>A pointer to an <a class="el" href="_m_q_t_t_async_8h.html#a0db1d736cdc0c864fe41abb3afd605bd">MQTTAsync</a> handle. The handle is populated with a valid client reference following a successful return from this function. </td></tr>
     <tr><td class="paramname">serverURI</td><td>A null-terminated string specifying the server to which the client will connect. It takes the form <em>protocol://host:port</em>. <em>protocol</em> must be <em>tcp</em> or <em>ssl</em>. For <em>host</em>, you can specify either an IP address or a domain name. For instance, to connect to a server running on the local machines with the default MQTT port, specify <em>tcp://localhost:1883</em>. </td></tr>
     <tr><td class="paramname">clientId</td><td>The client identifier passed to the server when the client connects to it. It is a null-terminated UTF-8 encoded string. ClientIDs must be no longer than 23 characters according to the MQTT specification. </td></tr>
     <tr><td class="paramname">persistence_type</td><td>The type of persistence to be used by the client: <br/>
  <a class="el" href="_m_q_t_t_client_persistence_8h.html#ae01e089313a65ac4661ed216b6ac00fa">MQTTCLIENT_PERSISTENCE_NONE</a>: Use in-memory persistence. If the device or system on which the client is running fails or is switched off, the current state of any in-flight messages is lost and some messages may not be delivered even at QoS1 and QoS2. <br/>
  <a class="el" href="_m_q_t_t_client_persistence_8h.html#aaa948291718a9c06369b854b0f64bc32">MQTTCLIENT_PERSISTENCE_DEFAULT</a>: Use the default (file system-based) persistence mechanism. Status about in-flight messages is held in persistent storage and provides some protection against message loss in the case of unexpected failure. <br/>
- <a class="el" href="_m_q_t_t_client_persistence_8h.html#a5dc68b8616e4041e037bad94ce07681b">MQTTCLIENT_PERSISTENCE_USER</a>: Use an application-specific persistence implementation. Using this type of persistence gives control of the persistence mechanism to the application. The application has to implement the MQTTAsync_persistence interface. </td></tr>
-    <tr><td class="paramname">persistence_context</td><td>If the application uses ::MQTTASYNC_PERSISTENCE_NONE persistence, this argument is unused and should be set to NULL. For ::MQTTASYNC_PERSISTENCE_DEFAULT persistence, it should be set to the location of the persistence directory (if set to NULL, the persistence directory used is the working directory). Applications that use ::MQTTASYNC_PERSISTENCE_USER persistence set this argument to point to a valid MQTTAsync_persistence structure. </td></tr>
+ <a class="el" href="_m_q_t_t_client_persistence_8h.html#a5dc68b8616e4041e037bad94ce07681b">MQTTCLIENT_PERSISTENCE_USER</a>: Use an application-specific persistence implementation. Using this type of persistence gives control of the persistence mechanism to the application. The application has to implement the <a class="el" href="struct_m_q_t_t_client__persistence.html" title="A structure containing the function pointers to a persistence implementation and the context or state...">MQTTClient_persistence</a> interface. </td></tr>
+    <tr><td class="paramname">persistence_context</td><td>If the application uses <a class="el" href="_m_q_t_t_client_persistence_8h.html#ae01e089313a65ac4661ed216b6ac00fa">MQTTCLIENT_PERSISTENCE_NONE</a> persistence, this argument is unused and should be set to NULL. For <a class="el" href="_m_q_t_t_client_persistence_8h.html#aaa948291718a9c06369b854b0f64bc32">MQTTCLIENT_PERSISTENCE_DEFAULT</a> persistence, it should be set to the location of the persistence directory (if set to NULL, the persistence directory used is the working directory). Applications that use <a class="el" href="_m_q_t_t_client_persistence_8h.html#a5dc68b8616e4041e037bad94ce07681b">MQTTCLIENT_PERSISTENCE_USER</a> persistence set this argument to point to a valid <a class="el" href="struct_m_q_t_t_client__persistence.html" title="A structure containing the function pointers to a persistence implementation and the context or state...">MQTTClient_persistence</a> structure. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1225,7 +1225,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 24 2013 16:36:10 for Asynchronous MQTT Client by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 27 2013 23:12:13 for Asynchronous MQTT Client by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.1.2
 </small></address>

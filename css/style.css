@@ -146,6 +146,10 @@ footer ul.nav-pills {
     line-height: 20px;
 }
 
+#downloads {
+    margin-top: 80px !important;
+    padding-top: 0px !important;
+}
 .container h2 {
     margin-top: -80px !important;
     padding-top: 80px !important;
@@ -184,4 +188,8 @@ footer ul.nav-pills {
 
 .intro,.features {
     background: rgba(200,200,200,0.2) !important;
+}
+
+code {
+    color: #000;
 }

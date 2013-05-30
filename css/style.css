@@ -146,30 +146,35 @@ footer ul.nav-pills {
     line-height: 20px;
 }
 
-#container h2 {
-    margin-top: 40px;
-    padding-top: 0px;
+#downloads {
+    margin-top: 80px !important;
+    padding-top: 0px !important;
+}
+.container h2 {
+    margin-top: -80px !important;
+    padding-top: 80px !important;
     margin-bottom: 10px;
 }
 
-#container h3 {
+.container h3 {
+    margin-top: -80px !important;
+    padding-top: 80px !important;
     font-family: Lekton,Arial,sans-serif;
     font-weight: normal;
-    margin-top: 0px;
 }
 
-#container p {
+.container p {
     margin-left: 10px;
 }
 
-#container li {
+.container li {
     margin-top: 10px;
 }
-#container li ul {
+.container li ul {
     margin-left: 10px;
 }
 
-#container li li {
+.container li li {
     margin-top: 5px;
     margin-left:0;
 }
@@ -180,6 +185,11 @@ footer ul.nav-pills {
 .feature-box .lead {
     color: #5e351a !important;
 }
+
 .intro,.features {
     background: rgba(200,200,200,0.2) !important;
+}
+
+code {
+    color: #000;
 }

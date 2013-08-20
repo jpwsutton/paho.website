@@ -36,7 +36,7 @@
       ga('create', 'UA-40177335-1', 'eclipse.org');
       ga('send', 'pageview');
     </script>
-    
+
     </head>
     <body>
         <!--  Navigation Bar-->
@@ -71,10 +71,10 @@
                                     What is Paho?
                                 </h1><a href="http://www.eclipse.org/projects/what-is-incubation.php" target="_blank"><img class="hidden-phone pull-right" src='/paho/images/incubation.png' style="position: absolute; bottom: 0; right: 0; height: 100px; opacity: 0.4;" alt="Eclipse Incubation egg"></a>
                                 <p class="lead">
-                                    The Paho project provides scalable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine&#8209;to&#8209;Machine (M2M) and Internet of Things (IoT). 
+                                    The Paho project provides scalable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine&#8209;to&#8209;Machine (M2M) and Internet of Things (IoT).
                                 </p>
                                 <div class="btn-group hidden-phone">
-                                   <a href="https://dev.eclipse.org/mailman/listinfo/paho-dev" class="btn" target="_blank">Mailing List</a> <a href="http://wiki.eclipse.org/Paho" class="btn" target="_blank">Wiki</a> <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=Bug%20Number&list_id=4625660&classification=Technology&query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=Paho" class="btn" target="_blank">Bug Tracker</a>  <!-- <a href="api-documentation" class="btn" target="_blank">API doc.</a> --> <a href="http://git.eclipse.org/c/paho" class="btn" target="_blank">Source Code</a> 
+                                   <a href="https://dev.eclipse.org/mailman/listinfo/paho-dev" class="btn" target="_blank">Mailing List</a> <a href="http://wiki.eclipse.org/Paho" class="btn" target="_blank">Wiki</a> <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=Bug%20Number&list_id=4625660&classification=Technology&query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=Paho" class="btn" target="_blank">Bug Tracker</a>  <!-- <a href="api-documentation" class="btn" target="_blank">API doc.</a> --> <a href="http://git.eclipse.org/c/paho" class="btn" target="_blank">Source Code</a>
                                 </div>
                                 <div class="row visible-phone">
                                     <a href="https://dev.eclipse.org/mailman/listinfo/paho-dev" target="_blank">Mailing List</a> &bull; <a href="http://wiki.eclipse.org/Paho" target="_blank">Wiki</a> &bull; <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=Bug%20Number&list_id=4625660&classification=Technology&query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=Paho" target="_blank">Bug Tracker</a>  &bull; <!-- <a href="api-documentation" target="_blank">API doc.</a>  &bull; --> <a href="http://git.eclipse.org/c/paho" target="_blank">Source Code</a>
@@ -139,7 +139,7 @@
                     </div>
                 </div>
             </div>
-        </div>            
+        </div>
         <div class="container">
                 <div class="row">
                     <div class="offset1 span5">
@@ -174,6 +174,11 @@
                                     <ul>
                                         <li>coming soon</li>
                                     </ul>
+                                 </li>
+                                <li>MQTT Python Client
+                                    <ul>
+                                        <li>coming soon</li>
+                                    </ul>
                                 </li>
                             </ul>
                     </div>
@@ -181,42 +186,42 @@
                         <h2 id="protocols">Protocols</h2>
                         <h3 id="mqtt">MQTT</h3>
                         <p>
-                            The specification for the MQ Telemetry Transport protocol is available on the <a href="http://www.ibm.com/developerworks/webservices/library/ws-mqtt/index.html">IBM developerWorks site</a>.
+                            The specification for the MQTT protocol is available on the <a href="http://www.ibm.com/developerworks/webservices/library/ws-mqtt/index.html">IBM developerWorks site</a>.
                         </p>
                         <p>
                             An <a href="http://www.redbooks.ibm.com/redpieces/abstracts/sg248054.html">IBM Redbook</a> is available that gives an introduction to the protocol and uses a scenario-based approach to demonstrate its capabilities.
                         </p>
                         <p>
-                            More information about the protocol can be found on the <a href="http://mqtt.org">MQTT.org community site</a>.
+                            More information about the protocol can be found on the <a href="http://mqtt.org">MQTT.org community site</a> and <a href="http://mqtt.org/wiki">wiki</a>.
                         </p>
                         <p>
                             Questions about the protocol itself, rather than the Paho implementations, should be directed to the <a href="http://groups.google.com/group/mqtt">MQTT Google Group</a>.
                         </p>
-                        
+
                         <p><b>MQTT sandbox server</b></p>
                         <p>
                             There is a publically accessible server for the Eclipse M2M projects available at <code>m2m.eclipse.org</code>, port <code>1883</code>.
                          </p>
                         <p>
-                            Some live statistics are available at <a href="https://cosm.com/feeds/59871">https://cosm.com/feeds/59871</a> and an HTTP bridge with a list of topics is deployed at <a href="http://m2m-eclipse.cloudfoundry.com">http://m2m-eclipse.cloudfoundry.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a>.
+                            Some live statistics are available at <a href="https://xively.com/feeds/59871/">https://xively.com/feeds/59871/</a> and an HTTP bridge (which also displays a list of topics with retained publications) is deployed at <a href="http://eclipse.mqttbridge.com/">http://eclipse.mqttbridge.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a>.
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="offset1 span10">
                         <h2 id="downloads">Downloads</h2>
                         <p>
-                            We are still setting things up to get automated builds of the clients available.
+                            We are still setting things up to get automated builds of all of the clients available.
                         </p>
                         <p>
-                            In the meantime, a pre-built version of the Java client is available; other clients builds will be added soon. 
+                            In the meantime, snapshot builds of the Java client are available from the Eclipse Maven infrastructure; other client builds will be added over time.
                         </p>
                         <table class="table table-bordered table-condensed download-table">
 							<thead>
 								<tr>
 									<th>Component</th>
-									<th>Repository <super>*</super></th>
+									<th>Git Repository <super>*</super></th>
 									<th>Download</th>
 								</tr>
 							</thead>
@@ -242,7 +247,7 @@
                                         </ul>
 									</td>
 									<td>
-                                        Mavern Repositories:
+                                        via Maven:
                                         <ul style="list-style-type: none;">
                                                     <li><a href="https://repo.eclipse.org/content/repositories/paho-snapshots/">paho-snapshots</a></li>
                                                     <li><a href="https://repo.eclipse.org/content/repositories/paho-releases/">paho-releases</a></li>
@@ -274,8 +279,20 @@
                                         </ul>
 									</td>
 								</tr>
+                                <tr>
+                                    <th style="vertical-align:middle"><ul style="list-style-type: none;"><li>MQTT Python Client</li></ul></th>
+                                    <td>
+                                        <ul style="list-style-type: none;">
+                                            <li><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.python.git/" target="_blank">org.eclipse.paho.mqtt.python.git</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul style="list-style-type: none;">
+                                        </ul>
+                                    </td>
+                                </tr>
 								<tr>
-									<th style="vertical-align:middle"><ul style="list-style-type: none;"><li>MQTT Application Framework</li></ul></th>
+									<th style="vertical-align:middle"><ul style="list-style-type: none;"><li>MQTT Eclipse Client View (IDE plugin)</li></ul></th>
 									<td>
 									    <ul style="list-style-type: none;">
                                             <li><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.esf.git/" target="_blank">org.eclipse.paho.esf.git</a></li>
@@ -288,17 +305,17 @@
 								</tr>
 							</tbody>
 						</table>
-						
+
 						<p style="text-align:right;"><super>*</super> These are the web front-ends to the repositories, not suitable for cloning.</p>
 
                     </div>
                 </div>
 
-                
+
         </div>
-        
-        
-        
+
+
+
         <!-- Features end -->
         <!--  Footer-->
         <div id="extra">

@@ -1,0 +1,162 @@
+<html>
+    <head>
+       <style type="text/css">
+            .hll { background-color: #ffffcc }
+.c { color: #888888 } /* Comment */
+.err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.k { color: #008800; font-weight: bold } /* Keyword */
+.cm { color: #888888 } /* Comment.Multiline */
+.cp { color: #cc0000; font-weight: bold } /* Comment.Preproc */
+.c1 { color: #888888 } /* Comment.Single */
+.cs { color: #cc0000; font-weight: bold; background-color: #fff0f0 } /* Comment.Special */
+.gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.ge { font-style: italic } /* Generic.Emph */
+.gr { color: #aa0000 } /* Generic.Error */
+.gh { color: #333333 } /* Generic.Heading */
+.gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.go { color: #888888 } /* Generic.Output */
+.gp { color: #555555 } /* Generic.Prompt */
+.gs { font-weight: bold } /* Generic.Strong */
+.gu { color: #666666 } /* Generic.Subheading */
+.gt { color: #aa0000 } /* Generic.Traceback */
+.kc { color: #008800; font-weight: bold } /* Keyword.Constant */
+.kd { color: #008800; font-weight: bold } /* Keyword.Declaration */
+.kn { color: #008800; font-weight: bold } /* Keyword.Namespace */
+.kp { color: #008800 } /* Keyword.Pseudo */
+.kr { color: #008800; font-weight: bold } /* Keyword.Reserved */
+.kt { color: #888888; font-weight: bold } /* Keyword.Type */
+.m { color: #0000DD; font-weight: bold } /* Literal.Number */
+.s { color: #dd2200; background-color: #fff0f0 } /* Literal.String */
+.na { color: #336699 } /* Name.Attribute */
+.nb { color: #003388 } /* Name.Builtin */
+.nc { color: #bb0066; font-weight: bold } /* Name.Class */
+.no { color: #003366; font-weight: bold } /* Name.Constant */
+.nd { color: #555555 } /* Name.Decorator */
+.ne { color: #bb0066; font-weight: bold } /* Name.Exception */
+.nf { color: #0066bb; font-weight: bold } /* Name.Function */
+.nl { color: #336699; font-style: italic } /* Name.Label */
+.nn { color: #bb0066; font-weight: bold } /* Name.Namespace */
+.py { color: #336699; font-weight: bold } /* Name.Property */
+.nt { color: #bb0066; font-weight: bold } /* Name.Tag */
+.nv { color: #336699 } /* Name.Variable */
+.ow { color: #008800 } /* Operator.Word */
+.w { color: #bbbbbb } /* Text.Whitespace */
+.mf { color: #0000DD; font-weight: bold } /* Literal.Number.Float */
+.mh { color: #0000DD; font-weight: bold } /* Literal.Number.Hex */
+.mi { color: #0000DD; font-weight: bold } /* Literal.Number.Integer */
+.mo { color: #0000DD; font-weight: bold } /* Literal.Number.Oct */
+.sb { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Backtick */
+.sc { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Char */
+.sd { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Doc */
+.s2 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Double */
+.se { color: #0044dd; background-color: #fff0f0 } /* Literal.String.Escape */
+.sh { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Heredoc */
+.si { color: #3333bb; background-color: #fff0f0 } /* Literal.String.Interpol */
+.sx { color: #22bb22; background-color: #f0fff0 } /* Literal.String.Other */
+.sr { color: #008800; background-color: #fff0ff } /* Literal.String.Regex */
+.s1 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Single */
+.ss { color: #aa6600; background-color: #fff0f0 } /* Literal.String.Symbol */
+.bp { color: #003388 } /* Name.Builtin.Pseudo */
+.vc { color: #336699 } /* Name.Variable.Class */
+.vg { color: #dd7700 } /* Name.Variable.Global */
+.vi { color: #3333bb } /* Name.Variable.Instance */
+.il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
+        </style>
+    </head>
+    <body>
+
+<h1>Topics</h1>
+<pre>
+<div class="highlight"><pre><a name="Topics.py-pyg.html-1"></a><span class="sd">&quot;&quot;&quot;</span>
+<a name="Topics.py-pyg.html-2"></a><span class="sd">*******************************************************************</span>
+<a name="Topics.py-pyg.html-3"></a><span class="sd">  Copyright (c) 2013, 2014 IBM Corp.</span>
+<a name="Topics.py-pyg.html-4"></a><span class="sd"> </span>
+<a name="Topics.py-pyg.html-5"></a><span class="sd">  All rights reserved. This program and the accompanying materials</span>
+<a name="Topics.py-pyg.html-6"></a><span class="sd">  are made available under the terms of the Eclipse Public License v1.0</span>
+<a name="Topics.py-pyg.html-7"></a><span class="sd">  and Eclipse Distribution License v1.0 which accompany this distribution. </span>
+<a name="Topics.py-pyg.html-8"></a><span class="sd"> </span>
+<a name="Topics.py-pyg.html-9"></a><span class="sd">  The Eclipse Public License is available at </span>
+<a name="Topics.py-pyg.html-10"></a><span class="sd">     http://www.eclipse.org/legal/epl-v10.html</span>
+<a name="Topics.py-pyg.html-11"></a><span class="sd">  and the Eclipse Distribution License is available at </span>
+<a name="Topics.py-pyg.html-12"></a><span class="sd">    http://www.eclipse.org/org/documents/edl-v10.php.</span>
+<a name="Topics.py-pyg.html-13"></a><span class="sd"> </span>
+<a name="Topics.py-pyg.html-14"></a><span class="sd">  Contributors:</span>
+<a name="Topics.py-pyg.html-15"></a><span class="sd">     Ian Craggs - initial implementation and/or documentation</span>
+<a name="Topics.py-pyg.html-16"></a><span class="sd">*******************************************************************</span>
+<a name="Topics.py-pyg.html-17"></a><span class="sd">&quot;&quot;&quot;</span>
+<a name="Topics.py-pyg.html-18"></a>
+<a name="Topics.py-pyg.html-19"></a>
+<a name="Topics.py-pyg.html-20"></a><span class="kn">import</span> <span class="nn">re</span><span class="o">,</span> <span class="nn">logging</span>
+<a name="Topics.py-pyg.html-21"></a>
+<a name="Topics.py-pyg.html-22"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s">&#39;MQTT broker&#39;</span><span class="p">)</span>
+<a name="Topics.py-pyg.html-23"></a>
+<a name="Topics.py-pyg.html-24"></a> 
+<a name="Topics.py-pyg.html-25"></a><span class="k">def</span> <span class="nf">isValidTopicName</span><span class="p">(</span><span class="n">aName</span><span class="p">):</span>
+<a name="Topics.py-pyg.html-26"></a>  <span class="n">rc</span> <span class="o">=</span> <span class="bp">True</span>
+<a name="Topics.py-pyg.html-27"></a>
+<a name="Topics.py-pyg.html-28"></a>  <span class="c"># &#39;#&#39; wildcard can be only at the beginning or the end of a topic</span>
+<a name="Topics.py-pyg.html-29"></a>  <span class="k">if</span> <span class="n">aName</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&#39;#&#39;</span><span class="p">)</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-30"></a>    <span class="n">rc</span> <span class="o">=</span> <span class="bp">False</span>
+<a name="Topics.py-pyg.html-31"></a>
+<a name="Topics.py-pyg.html-32"></a>  <span class="c"># &#39;#&#39; or &#39;+&#39; only next to a slash separator or end of name</span>
+<a name="Topics.py-pyg.html-33"></a>  <span class="n">wilds</span> <span class="o">=</span> <span class="s">&#39;#+&#39;</span>
+<a name="Topics.py-pyg.html-34"></a>  <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">wilds</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-35"></a>    <span class="n">pos</span> <span class="o">=</span> <span class="mi">0</span>
+<a name="Topics.py-pyg.html-36"></a>    <span class="n">pos</span> <span class="o">=</span> <span class="n">aName</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">pos</span><span class="p">)</span>
+<a name="Topics.py-pyg.html-37"></a>    <span class="k">while</span> <span class="n">pos</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-38"></a>      <span class="k">if</span> <span class="n">pos</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> <span class="c"># check previous char is &#39;/&#39;</span>
+<a name="Topics.py-pyg.html-39"></a>        <span class="k">if</span> <span class="n">aName</span><span class="p">[</span><span class="n">pos</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&#39;/&#39;</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-40"></a>          <span class="n">rc</span> <span class="o">=</span> <span class="bp">False</span>
+<a name="Topics.py-pyg.html-41"></a>      <span class="k">if</span> <span class="n">pos</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">aName</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span> <span class="c"># check that subsequent char is &#39;/&#39;</span>
+<a name="Topics.py-pyg.html-42"></a>        <span class="k">if</span> <span class="n">aName</span><span class="p">[</span><span class="n">pos</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&#39;/&#39;</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-43"></a>          <span class="n">rc</span> <span class="o">=</span> <span class="bp">False</span>
+<a name="Topics.py-pyg.html-44"></a>      <span class="n">pos</span> <span class="o">=</span> <span class="n">aName</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">pos</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+<a name="Topics.py-pyg.html-45"></a>
+<a name="Topics.py-pyg.html-46"></a>  <span class="k">return</span> <span class="n">rc</span>
+<a name="Topics.py-pyg.html-47"></a> 
+<a name="Topics.py-pyg.html-48"></a><span class="k">def</span> <span class="nf">topicMatches</span><span class="p">(</span><span class="n">wild</span><span class="p">,</span> <span class="n">nonwild</span><span class="p">,</span> <span class="n">wildCheck</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+<a name="Topics.py-pyg.html-49"></a>
+<a name="Topics.py-pyg.html-50"></a>  <span class="k">if</span> <span class="n">wildCheck</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-51"></a>    <span class="k">assert</span> <span class="n">nonwild</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&#39;+&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="n">nonwild</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&#39;#&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span>
+<a name="Topics.py-pyg.html-52"></a>  <span class="k">assert</span> <span class="n">isValidTopicName</span><span class="p">(</span><span class="n">wild</span><span class="p">)</span> <span class="ow">and</span> <span class="n">isValidTopicName</span><span class="p">(</span><span class="n">nonwild</span><span class="p">)</span>
+<a name="Topics.py-pyg.html-53"></a>
+<a name="Topics.py-pyg.html-54"></a>  <span class="n">rc</span> <span class="o">=</span> <span class="bp">False</span>
+<a name="Topics.py-pyg.html-55"></a>  <span class="k">if</span> <span class="n">wild</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&#39;+&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="n">wild</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&#39;#&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-56"></a>    <span class="c"># no wildcards, so check is simple</span>
+<a name="Topics.py-pyg.html-57"></a>    <span class="n">rc</span> <span class="o">=</span> <span class="p">(</span><span class="n">wild</span> <span class="o">==</span> <span class="n">nonwild</span><span class="p">)</span>
+<a name="Topics.py-pyg.html-58"></a>  <span class="k">else</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-59"></a>    <span class="c"># we have wildcards. Escape metacharacters, except +</span>
+<a name="Topics.py-pyg.html-60"></a>    <span class="n">metachars</span> <span class="o">=</span> <span class="s">&#39;</span><span class="se">\\</span><span class="s">.^$*?{[]|()&#39;</span> <span class="c"># make sure \\ is at beginning of this string</span>
+<a name="Topics.py-pyg.html-61"></a>    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">metachars</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-62"></a>      <span class="n">wild</span> <span class="o">=</span> <span class="n">wild</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="s">&#39;</span><span class="se">\\</span><span class="s">&#39;</span><span class="o">+</span><span class="n">s</span><span class="p">)</span>
+<a name="Topics.py-pyg.html-63"></a>
+<a name="Topics.py-pyg.html-64"></a>    <span class="c"># now replace wildcards with regular expressions and match</span>
+<a name="Topics.py-pyg.html-65"></a>    <span class="k">if</span> <span class="n">wild</span> <span class="o">==</span> <span class="s">&#39;#&#39;</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-66"></a>      <span class="s">&quot;# on its own matches everything&quot;</span>
+<a name="Topics.py-pyg.html-67"></a>      <span class="n">wild</span> <span class="o">=</span> <span class="s">&#39;.*&#39;</span>
+<a name="Topics.py-pyg.html-68"></a>    <span class="k">elif</span> <span class="n">wild</span> <span class="o">==</span> <span class="s">&#39;/#&#39;</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-69"></a>      <span class="s">&quot;/# matches everything starting with a slash&quot;</span>
+<a name="Topics.py-pyg.html-70"></a>      <span class="n">wild</span> <span class="o">=</span> <span class="s">&#39;/.*&#39;</span>
+<a name="Topics.py-pyg.html-71"></a>    <span class="k">else</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-72"></a>      <span class="s">&quot;all other instances subsume the preceding or following slash&quot;</span>
+<a name="Topics.py-pyg.html-73"></a>      <span class="n">wild</span> <span class="o">=</span> <span class="n">wild</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;#/&#39;</span><span class="p">,</span> <span class="s">&#39;(.*?/|^)&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;/#&#39;</span><span class="p">,</span> <span class="s">&#39;(/.*?|$)&#39;</span><span class="p">)</span>
+<a name="Topics.py-pyg.html-74"></a>    <span class="n">wild</span> <span class="o">=</span> <span class="n">wild</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;+&#39;</span><span class="p">,</span> <span class="s">&#39;[^/#]+?&#39;</span><span class="p">)</span> <span class="c"># + does not match an empty level</span>
+<a name="Topics.py-pyg.html-75"></a>    <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">wild</span><span class="o">+</span><span class="s">&#39;$&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">nonwild</span><span class="p">)</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">:</span>
+<a name="Topics.py-pyg.html-76"></a>      <span class="n">rc</span> <span class="o">=</span> <span class="bp">True</span>
+<a name="Topics.py-pyg.html-77"></a>  <span class="k">return</span> <span class="n">rc</span>
+<a name="Topics.py-pyg.html-78"></a>
+<a name="Topics.py-pyg.html-79"></a>
+<a name="Topics.py-pyg.html-80"></a><span class="sd">&quot;&quot;&quot; </span>
+<a name="Topics.py-pyg.html-81"></a><span class="sd">topicCoverage = dataclasses(&quot;string&quot;, (1, 64),</span>
+<a name="Topics.py-pyg.html-82"></a><span class="sd">                [&quot;TopicA&quot;, &quot;TopicA/B&quot;, &quot;Topic/C&quot;, &quot;TopicA/C&quot;, &quot;/TopicA&quot;, &quot;MQTTSAS topic&quot;],</span>
+<a name="Topics.py-pyg.html-83"></a><span class="sd">                static=True)</span>
+<a name="Topics.py-pyg.html-84"></a><span class="sd">wildTopicCoverage = dataclasses(&quot;string&quot;, (1, 64),</span>
+<a name="Topics.py-pyg.html-85"></a><span class="sd">                    [&quot;TopicA/+&quot;, &quot;+/C&quot;, &quot;#&quot;, &quot;/#&quot;, &quot;/+&quot;, &quot;+/+&quot;],</span>
+<a name="Topics.py-pyg.html-86"></a><span class="sd">                    static=True)</span>
+<a name="Topics.py-pyg.html-87"></a><span class="sd">&quot;&quot;&quot;</span> 
+</pre></div>
+
+</pre>
+
+    </body>
+</html>

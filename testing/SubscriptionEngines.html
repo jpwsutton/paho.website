@@ -1,0 +1,229 @@
+<html>
+    <head>
+       <style type="text/css">
+            .hll { background-color: #ffffcc }
+.c { color: #888888 } /* Comment */
+.err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.k { color: #008800; font-weight: bold } /* Keyword */
+.cm { color: #888888 } /* Comment.Multiline */
+.cp { color: #cc0000; font-weight: bold } /* Comment.Preproc */
+.c1 { color: #888888 } /* Comment.Single */
+.cs { color: #cc0000; font-weight: bold; background-color: #fff0f0 } /* Comment.Special */
+.gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.ge { font-style: italic } /* Generic.Emph */
+.gr { color: #aa0000 } /* Generic.Error */
+.gh { color: #333333 } /* Generic.Heading */
+.gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.go { color: #888888 } /* Generic.Output */
+.gp { color: #555555 } /* Generic.Prompt */
+.gs { font-weight: bold } /* Generic.Strong */
+.gu { color: #666666 } /* Generic.Subheading */
+.gt { color: #aa0000 } /* Generic.Traceback */
+.kc { color: #008800; font-weight: bold } /* Keyword.Constant */
+.kd { color: #008800; font-weight: bold } /* Keyword.Declaration */
+.kn { color: #008800; font-weight: bold } /* Keyword.Namespace */
+.kp { color: #008800 } /* Keyword.Pseudo */
+.kr { color: #008800; font-weight: bold } /* Keyword.Reserved */
+.kt { color: #888888; font-weight: bold } /* Keyword.Type */
+.m { color: #0000DD; font-weight: bold } /* Literal.Number */
+.s { color: #dd2200; background-color: #fff0f0 } /* Literal.String */
+.na { color: #336699 } /* Name.Attribute */
+.nb { color: #003388 } /* Name.Builtin */
+.nc { color: #bb0066; font-weight: bold } /* Name.Class */
+.no { color: #003366; font-weight: bold } /* Name.Constant */
+.nd { color: #555555 } /* Name.Decorator */
+.ne { color: #bb0066; font-weight: bold } /* Name.Exception */
+.nf { color: #0066bb; font-weight: bold } /* Name.Function */
+.nl { color: #336699; font-style: italic } /* Name.Label */
+.nn { color: #bb0066; font-weight: bold } /* Name.Namespace */
+.py { color: #336699; font-weight: bold } /* Name.Property */
+.nt { color: #bb0066; font-weight: bold } /* Name.Tag */
+.nv { color: #336699 } /* Name.Variable */
+.ow { color: #008800 } /* Operator.Word */
+.w { color: #bbbbbb } /* Text.Whitespace */
+.mf { color: #0000DD; font-weight: bold } /* Literal.Number.Float */
+.mh { color: #0000DD; font-weight: bold } /* Literal.Number.Hex */
+.mi { color: #0000DD; font-weight: bold } /* Literal.Number.Integer */
+.mo { color: #0000DD; font-weight: bold } /* Literal.Number.Oct */
+.sb { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Backtick */
+.sc { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Char */
+.sd { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Doc */
+.s2 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Double */
+.se { color: #0044dd; background-color: #fff0f0 } /* Literal.String.Escape */
+.sh { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Heredoc */
+.si { color: #3333bb; background-color: #fff0f0 } /* Literal.String.Interpol */
+.sx { color: #22bb22; background-color: #f0fff0 } /* Literal.String.Other */
+.sr { color: #008800; background-color: #fff0ff } /* Literal.String.Regex */
+.s1 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Single */
+.ss { color: #aa6600; background-color: #fff0f0 } /* Literal.String.Symbol */
+.bp { color: #003388 } /* Name.Builtin.Pseudo */
+.vc { color: #336699 } /* Name.Variable.Class */
+.vg { color: #dd7700 } /* Name.Variable.Global */
+.vi { color: #3333bb } /* Name.Variable.Instance */
+.il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
+        </style>
+    </head>
+    <body>
+
+<h1>Subscription Engine</h1>
+<pre>
+<div class="highlight"><pre><a name="SubscriptionEngines.py-pyg.html-1"></a><span class="sd">&quot;&quot;&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-2"></a><span class="sd">*******************************************************************</span>
+<a name="SubscriptionEngines.py-pyg.html-3"></a><span class="sd">  Copyright (c) 2013, 2014 IBM Corp.</span>
+<a name="SubscriptionEngines.py-pyg.html-4"></a><span class="sd"> </span>
+<a name="SubscriptionEngines.py-pyg.html-5"></a><span class="sd">  All rights reserved. This program and the accompanying materials</span>
+<a name="SubscriptionEngines.py-pyg.html-6"></a><span class="sd">  are made available under the terms of the Eclipse Public License v1.0</span>
+<a name="SubscriptionEngines.py-pyg.html-7"></a><span class="sd">  and Eclipse Distribution License v1.0 which accompany this distribution. </span>
+<a name="SubscriptionEngines.py-pyg.html-8"></a><span class="sd"> </span>
+<a name="SubscriptionEngines.py-pyg.html-9"></a><span class="sd">  The Eclipse Public License is available at </span>
+<a name="SubscriptionEngines.py-pyg.html-10"></a><span class="sd">     http://www.eclipse.org/legal/epl-v10.html</span>
+<a name="SubscriptionEngines.py-pyg.html-11"></a><span class="sd">  and the Eclipse Distribution License is available at </span>
+<a name="SubscriptionEngines.py-pyg.html-12"></a><span class="sd">    http://www.eclipse.org/org/documents/edl-v10.php.</span>
+<a name="SubscriptionEngines.py-pyg.html-13"></a><span class="sd"> </span>
+<a name="SubscriptionEngines.py-pyg.html-14"></a><span class="sd">  Contributors:</span>
+<a name="SubscriptionEngines.py-pyg.html-15"></a><span class="sd">     Ian Craggs - initial implementation and/or documentation</span>
+<a name="SubscriptionEngines.py-pyg.html-16"></a><span class="sd">*******************************************************************</span>
+<a name="SubscriptionEngines.py-pyg.html-17"></a><span class="sd">&quot;&quot;&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-18"></a>
+<a name="SubscriptionEngines.py-pyg.html-19"></a><span class="kn">import</span> <span class="nn">types</span><span class="o">,</span> <span class="nn">logging</span>
+<a name="SubscriptionEngines.py-pyg.html-20"></a>
+<a name="SubscriptionEngines.py-pyg.html-21"></a><span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">Topics</span><span class="p">,</span> <span class="n">Subscriptions</span>
+<a name="SubscriptionEngines.py-pyg.html-22"></a>
+<a name="SubscriptionEngines.py-pyg.html-23"></a><span class="kn">from</span> <span class="nn">.Subscriptions</span> <span class="kn">import</span> <span class="o">*</span>
+<a name="SubscriptionEngines.py-pyg.html-24"></a>
+<a name="SubscriptionEngines.py-pyg.html-25"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s">&#39;MQTT broker&#39;</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-26"></a> 
+<a name="SubscriptionEngines.py-pyg.html-27"></a><span class="k">class</span> <span class="nc">SubscriptionEngines</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-28"></a>
+<a name="SubscriptionEngines.py-pyg.html-29"></a>   <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-30"></a>     <span class="bp">self</span><span class="o">.</span><span class="n">__subscriptions</span> <span class="o">=</span> <span class="p">[]</span> <span class="c"># list of subscriptions</span>
+<a name="SubscriptionEngines.py-pyg.html-31"></a>     <span class="bp">self</span><span class="o">.</span><span class="n">__retained</span> <span class="o">=</span> <span class="p">{}</span>      <span class="c"># map of topics to retained msg+qos</span>
+<a name="SubscriptionEngines.py-pyg.html-32"></a>
+<a name="SubscriptionEngines.py-pyg.html-33"></a>     <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_subscriptions</span> <span class="o">=</span> <span class="p">[]</span>
+<a name="SubscriptionEngines.py-pyg.html-34"></a>     <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_retained</span> <span class="o">=</span> <span class="p">{}</span>
+<a name="SubscriptionEngines.py-pyg.html-35"></a>
+<a name="SubscriptionEngines.py-pyg.html-36"></a>   <span class="k">def</span> <span class="nf">reinitialize</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-37"></a>     <span class="bp">self</span><span class="o">.</span><span class="n">__init__</span><span class="p">()</span>
+<a name="SubscriptionEngines.py-pyg.html-38"></a>
+<a name="SubscriptionEngines.py-pyg.html-39"></a>   <span class="k">def</span> <span class="nf">subscribe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aClientid</span><span class="p">,</span> <span class="n">topic</span><span class="p">,</span> <span class="n">qos</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-40"></a>     <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">topic</span><span class="p">)</span> <span class="o">==</span> <span class="nb">type</span><span class="p">([]):</span>
+<a name="SubscriptionEngines.py-pyg.html-41"></a>       <span class="n">rc</span> <span class="o">=</span> <span class="p">[]</span>
+<a name="SubscriptionEngines.py-pyg.html-42"></a>       <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<a name="SubscriptionEngines.py-pyg.html-43"></a>       <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s">&quot;[MQTT-3.8.4-4] Multiple topics in one subscribe&quot;</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-44"></a>       <span class="k">for</span> <span class="n">aTopic</span> <span class="ow">in</span> <span class="n">topic</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-45"></a>         <span class="n">rc</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__subscribe</span><span class="p">(</span><span class="n">aClientid</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">,</span> <span class="n">qos</span><span class="p">[</span><span class="n">count</span><span class="p">]))</span>
+<a name="SubscriptionEngines.py-pyg.html-46"></a>         <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+<a name="SubscriptionEngines.py-pyg.html-47"></a>     <span class="k">else</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-48"></a>       <span class="n">rc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__subscribe</span><span class="p">(</span><span class="n">aClientid</span><span class="p">,</span> <span class="n">topic</span><span class="p">,</span> <span class="n">qos</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-49"></a>     <span class="k">return</span> <span class="n">rc</span>
+<a name="SubscriptionEngines.py-pyg.html-50"></a>
+<a name="SubscriptionEngines.py-pyg.html-51"></a>   <span class="k">def</span> <span class="nf">__subscribe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aClientid</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">,</span> <span class="n">aQos</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-52"></a>     <span class="s">&quot;subscribe to one topic&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-53"></a>     <span class="n">rc</span> <span class="o">=</span> <span class="bp">None</span>
+<a name="SubscriptionEngines.py-pyg.html-54"></a>     <span class="k">assert</span> <span class="n">Topics</span><span class="o">.</span><span class="n">isValidTopicName</span><span class="p">(</span><span class="n">aTopic</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-55"></a>     <span class="n">subscriptions</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__subscriptions</span> <span class="k">if</span> <span class="n">aTopic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;$&quot;</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_subscriptions</span>
+<a name="SubscriptionEngines.py-pyg.html-56"></a>     <span class="n">resubscribed</span> <span class="o">=</span> <span class="bp">False</span>
+<a name="SubscriptionEngines.py-pyg.html-57"></a>     <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">subscriptions</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-58"></a>       <span class="k">if</span> <span class="n">s</span><span class="o">.</span><span class="n">getClientid</span><span class="p">()</span> <span class="o">==</span> <span class="n">aClientid</span> <span class="ow">and</span> <span class="n">s</span><span class="o">.</span><span class="n">getTopic</span><span class="p">()</span> <span class="o">==</span> <span class="n">aTopic</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-59"></a>         <span class="n">s</span><span class="o">.</span><span class="n">resubscribe</span><span class="p">(</span><span class="n">aQos</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-60"></a>         <span class="k">return</span> <span class="n">s</span>
+<a name="SubscriptionEngines.py-pyg.html-61"></a>     <span class="n">rc</span> <span class="o">=</span> <span class="n">Subscriptions</span><span class="p">(</span><span class="n">aClientid</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">,</span> <span class="n">aQos</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-62"></a>     <span class="n">subscriptions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rc</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-63"></a>     <span class="k">return</span> <span class="n">rc</span>
+<a name="SubscriptionEngines.py-pyg.html-64"></a>
+<a name="SubscriptionEngines.py-pyg.html-65"></a>   <span class="k">def</span> <span class="nf">unsubscribe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aClientid</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-66"></a>     <span class="n">matched</span> <span class="o">=</span> <span class="bp">False</span>
+<a name="SubscriptionEngines.py-pyg.html-67"></a>     <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">aTopic</span><span class="p">)</span> <span class="o">==</span> <span class="nb">type</span><span class="p">([]):</span>
+<a name="SubscriptionEngines.py-pyg.html-68"></a>       <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">aTopic</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-69"></a>         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s">&quot;[MQTT-3.10.3-6] each topic must be processed in sequence&quot;</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-70"></a>       <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">aTopic</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-71"></a>         <span class="k">if</span> <span class="ow">not</span> <span class="n">matched</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-72"></a>           <span class="n">matched</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__unsubscribe</span><span class="p">(</span><span class="n">aClientid</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-73"></a>     <span class="k">else</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-74"></a>       <span class="n">matched</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__unsubscribe</span><span class="p">(</span><span class="n">aClientid</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-75"></a>     <span class="k">if</span> <span class="ow">not</span> <span class="n">matched</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-76"></a>       <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s">&quot;[MQTT-3.10.3-5] Unsuback must be sent even if no topics are matched&quot;</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-77"></a>
+<a name="SubscriptionEngines.py-pyg.html-78"></a>   <span class="k">def</span> <span class="nf">__unsubscribe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aClientid</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-79"></a>     <span class="s">&quot;unsubscribe to one topic&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-80"></a>     <span class="n">matched</span> <span class="o">=</span> <span class="bp">False</span>
+<a name="SubscriptionEngines.py-pyg.html-81"></a>     <span class="n">subscriptions</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__subscriptions</span> <span class="k">if</span> <span class="n">aTopic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;$&quot;</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_subscriptions</span>
+<a name="SubscriptionEngines.py-pyg.html-82"></a>     <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">subscriptions</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-83"></a>       <span class="k">if</span> <span class="n">s</span><span class="o">.</span><span class="n">getClientid</span><span class="p">()</span> <span class="o">==</span> <span class="n">aClientid</span> <span class="ow">and</span> <span class="n">s</span><span class="o">.</span><span class="n">getTopic</span><span class="p">()</span> <span class="o">==</span> <span class="n">aTopic</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-84"></a>         <span class="n">subscriptions</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-85"></a>         <span class="n">matched</span> <span class="o">=</span> <span class="bp">True</span>
+<a name="SubscriptionEngines.py-pyg.html-86"></a>         <span class="k">break</span> <span class="c"># once we&#39;ve hit one, that&#39;s us done</span>
+<a name="SubscriptionEngines.py-pyg.html-87"></a>     <span class="k">return</span> <span class="n">matched</span>
+<a name="SubscriptionEngines.py-pyg.html-88"></a>
+<a name="SubscriptionEngines.py-pyg.html-89"></a>   <span class="k">def</span> <span class="nf">clearSubscriptions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aClientid</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-90"></a>     <span class="k">for</span> <span class="n">subscriptions</span> <span class="ow">in</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">__subscriptions</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_subscriptions</span><span class="p">]:</span>
+<a name="SubscriptionEngines.py-pyg.html-91"></a>       <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">subscriptions</span><span class="p">[:]:</span>
+<a name="SubscriptionEngines.py-pyg.html-92"></a>         <span class="k">if</span> <span class="n">s</span><span class="o">.</span><span class="n">getClientid</span><span class="p">()</span> <span class="o">==</span> <span class="n">aClientid</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-93"></a>           <span class="n">subscriptions</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-94"></a>
+<a name="SubscriptionEngines.py-pyg.html-95"></a>   <span class="k">def</span> <span class="nf">getSubscriptions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">,</span> <span class="n">aClientid</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-96"></a>     <span class="s">&quot;return a list of subscriptions for this client&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-97"></a>     <span class="n">subscriptions</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__subscriptions</span> <span class="k">if</span> <span class="n">aTopic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;$&quot;</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_subscriptions</span>
+<a name="SubscriptionEngines.py-pyg.html-98"></a>     <span class="k">if</span> <span class="n">aClientid</span> <span class="o">==</span> <span class="bp">None</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-99"></a>       <span class="n">rc</span> <span class="o">=</span> <span class="p">[</span><span class="n">sub</span> <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">subscriptions</span> <span class="k">if</span> <span class="n">Topics</span><span class="o">.</span><span class="n">topicMatches</span><span class="p">(</span><span class="n">sub</span><span class="o">.</span><span class="n">getTopic</span><span class="p">(),</span> <span class="n">aTopic</span><span class="p">)]</span>
+<a name="SubscriptionEngines.py-pyg.html-100"></a>     <span class="k">else</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-101"></a>       <span class="n">rc</span> <span class="o">=</span> <span class="p">[</span><span class="n">sub</span> <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">subscriptions</span> <span class="k">if</span> <span class="n">sub</span><span class="o">.</span><span class="n">getClientid</span><span class="p">()</span> <span class="o">==</span> <span class="n">aClientid</span> <span class="ow">and</span> <span class="n">Topics</span><span class="o">.</span><span class="n">topicMatches</span><span class="p">(</span><span class="n">sub</span><span class="o">.</span><span class="n">getTopic</span><span class="p">(),</span> <span class="n">aTopic</span><span class="p">)]</span>
+<a name="SubscriptionEngines.py-pyg.html-102"></a>     <span class="k">return</span> <span class="n">rc</span>
+<a name="SubscriptionEngines.py-pyg.html-103"></a>
+<a name="SubscriptionEngines.py-pyg.html-104"></a>   <span class="k">def</span> <span class="nf">qosOf</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">clientid</span><span class="p">,</span> <span class="n">topic</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-105"></a>     <span class="c"># if there are overlapping subscriptions, choose maximum QoS</span>
+<a name="SubscriptionEngines.py-pyg.html-106"></a>     <span class="n">chosen</span> <span class="o">=</span> <span class="bp">None</span>
+<a name="SubscriptionEngines.py-pyg.html-107"></a>     <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">getSubscriptions</span><span class="p">(</span><span class="n">topic</span><span class="p">,</span> <span class="n">clientid</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-108"></a>       <span class="k">if</span> <span class="n">chosen</span> <span class="o">==</span> <span class="bp">None</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-109"></a>         <span class="n">chosen</span> <span class="o">=</span> <span class="n">sub</span><span class="o">.</span><span class="n">getQoS</span><span class="p">()</span>
+<a name="SubscriptionEngines.py-pyg.html-110"></a>       <span class="k">else</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-111"></a>         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s">&quot;[MQTT-3.3.5-1] Overlapping subscriptions max QoS&quot;</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-112"></a>         <span class="k">if</span> <span class="n">sub</span><span class="o">.</span><span class="n">getQoS</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">chosen</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-113"></a>           <span class="n">chosen</span> <span class="o">=</span> <span class="n">sub</span><span class="o">.</span><span class="n">getQoS</span><span class="p">()</span>
+<a name="SubscriptionEngines.py-pyg.html-114"></a>       <span class="c"># Omit the following optimization because we want to check for condition [MQTT-3.3.5-1]</span>
+<a name="SubscriptionEngines.py-pyg.html-115"></a>       <span class="c">#if chosen == 2:</span>
+<a name="SubscriptionEngines.py-pyg.html-116"></a>       <span class="c">#  break</span>
+<a name="SubscriptionEngines.py-pyg.html-117"></a>     <span class="k">return</span> <span class="n">chosen</span>
+<a name="SubscriptionEngines.py-pyg.html-118"></a>
+<a name="SubscriptionEngines.py-pyg.html-119"></a>   <span class="k">def</span> <span class="nf">subscribers</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-120"></a>     <span class="s">&quot;list all clients subscribed to this (non-wildcard) topic&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-121"></a>     <span class="n">subscriptions</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__subscriptions</span> <span class="k">if</span> <span class="n">aTopic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;$&quot;</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_subscriptions</span>
+<a name="SubscriptionEngines.py-pyg.html-122"></a>     <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+<a name="SubscriptionEngines.py-pyg.html-123"></a>     <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">subscriptions</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-124"></a>       <span class="k">if</span> <span class="n">Topics</span><span class="o">.</span><span class="n">topicMatches</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">getTopic</span><span class="p">(),</span> <span class="n">aTopic</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-125"></a>         <span class="k">if</span> <span class="n">s</span><span class="o">.</span><span class="n">getClientid</span><span class="p">()</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span> <span class="c"># don&#39;t add a client id twice</span>
+<a name="SubscriptionEngines.py-pyg.html-126"></a>             <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">getClientid</span><span class="p">())</span>
+<a name="SubscriptionEngines.py-pyg.html-127"></a>     <span class="k">return</span> <span class="n">result</span>
+<a name="SubscriptionEngines.py-pyg.html-128"></a>
+<a name="SubscriptionEngines.py-pyg.html-129"></a>   <span class="k">def</span> <span class="nf">setRetained</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">,</span> <span class="n">aMessage</span><span class="p">,</span> <span class="n">aQoS</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-130"></a>     <span class="s">&quot;set a retained message on a non-wildcard topic&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-131"></a>     <span class="n">retained</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__retained</span> <span class="k">if</span> <span class="n">aTopic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;$&quot;</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_retained</span>
+<a name="SubscriptionEngines.py-pyg.html-132"></a>     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">aMessage</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-133"></a>       <span class="k">if</span> <span class="n">aTopic</span> <span class="ow">in</span> <span class="n">retained</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+<a name="SubscriptionEngines.py-pyg.html-134"></a>         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s">&quot;[MQTT-2.1.1-11] Deleting retained message&quot;</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-135"></a>         <span class="k">del</span> <span class="n">retained</span><span class="p">[</span><span class="n">aTopic</span><span class="p">]</span>
+<a name="SubscriptionEngines.py-pyg.html-136"></a>     <span class="k">else</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-137"></a>       <span class="n">retained</span><span class="p">[</span><span class="n">aTopic</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">aMessage</span><span class="p">,</span> <span class="n">aQoS</span><span class="p">)</span>
+<a name="SubscriptionEngines.py-pyg.html-138"></a>
+<a name="SubscriptionEngines.py-pyg.html-139"></a>   <span class="k">def</span> <span class="nf">getRetained</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-140"></a>     <span class="s">&quot;returns (msg, QoS) for a topic&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-141"></a>     <span class="n">retained</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__retained</span> <span class="k">if</span> <span class="n">aTopic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;$&quot;</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_retained</span>
+<a name="SubscriptionEngines.py-pyg.html-142"></a>     <span class="k">if</span> <span class="n">aTopic</span> <span class="ow">in</span> <span class="n">retained</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+<a name="SubscriptionEngines.py-pyg.html-143"></a>       <span class="n">result</span> <span class="o">=</span> <span class="n">retained</span><span class="p">[</span><span class="n">aTopic</span><span class="p">]</span>
+<a name="SubscriptionEngines.py-pyg.html-144"></a>     <span class="k">else</span><span class="p">:</span>
+<a name="SubscriptionEngines.py-pyg.html-145"></a>       <span class="n">result</span> <span class="o">=</span> <span class="bp">None</span>
+<a name="SubscriptionEngines.py-pyg.html-146"></a>     <span class="k">return</span> <span class="n">result</span>
+<a name="SubscriptionEngines.py-pyg.html-147"></a>
+<a name="SubscriptionEngines.py-pyg.html-148"></a>   <span class="k">def</span> <span class="nf">getRetainedTopics</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">):</span>
+<a name="SubscriptionEngines.py-pyg.html-149"></a>     <span class="s">&quot;returns a list of topics for which retained publications exist&quot;</span>
+<a name="SubscriptionEngines.py-pyg.html-150"></a>     <span class="n">retained</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__retained</span> <span class="k">if</span> <span class="n">aTopic</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;$&quot;</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dollar_retained</span>
+<a name="SubscriptionEngines.py-pyg.html-151"></a>     <span class="k">return</span> <span class="n">retained</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<a name="SubscriptionEngines.py-pyg.html-152"></a>
+<a name="SubscriptionEngines.py-pyg.html-153"></a>
+<a name="SubscriptionEngines.py-pyg.html-154"></a> 
+</pre></div>
+
+</pre>
+
+    </body>
+</html>

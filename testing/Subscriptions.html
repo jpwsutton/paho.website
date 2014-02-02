@@ -1,0 +1,120 @@
+<html>
+    <head>
+       <style type="text/css">
+            .hll { background-color: #ffffcc }
+.c { color: #888888 } /* Comment */
+.err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.k { color: #008800; font-weight: bold } /* Keyword */
+.cm { color: #888888 } /* Comment.Multiline */
+.cp { color: #cc0000; font-weight: bold } /* Comment.Preproc */
+.c1 { color: #888888 } /* Comment.Single */
+.cs { color: #cc0000; font-weight: bold; background-color: #fff0f0 } /* Comment.Special */
+.gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.ge { font-style: italic } /* Generic.Emph */
+.gr { color: #aa0000 } /* Generic.Error */
+.gh { color: #333333 } /* Generic.Heading */
+.gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.go { color: #888888 } /* Generic.Output */
+.gp { color: #555555 } /* Generic.Prompt */
+.gs { font-weight: bold } /* Generic.Strong */
+.gu { color: #666666 } /* Generic.Subheading */
+.gt { color: #aa0000 } /* Generic.Traceback */
+.kc { color: #008800; font-weight: bold } /* Keyword.Constant */
+.kd { color: #008800; font-weight: bold } /* Keyword.Declaration */
+.kn { color: #008800; font-weight: bold } /* Keyword.Namespace */
+.kp { color: #008800 } /* Keyword.Pseudo */
+.kr { color: #008800; font-weight: bold } /* Keyword.Reserved */
+.kt { color: #888888; font-weight: bold } /* Keyword.Type */
+.m { color: #0000DD; font-weight: bold } /* Literal.Number */
+.s { color: #dd2200; background-color: #fff0f0 } /* Literal.String */
+.na { color: #336699 } /* Name.Attribute */
+.nb { color: #003388 } /* Name.Builtin */
+.nc { color: #bb0066; font-weight: bold } /* Name.Class */
+.no { color: #003366; font-weight: bold } /* Name.Constant */
+.nd { color: #555555 } /* Name.Decorator */
+.ne { color: #bb0066; font-weight: bold } /* Name.Exception */
+.nf { color: #0066bb; font-weight: bold } /* Name.Function */
+.nl { color: #336699; font-style: italic } /* Name.Label */
+.nn { color: #bb0066; font-weight: bold } /* Name.Namespace */
+.py { color: #336699; font-weight: bold } /* Name.Property */
+.nt { color: #bb0066; font-weight: bold } /* Name.Tag */
+.nv { color: #336699 } /* Name.Variable */
+.ow { color: #008800 } /* Operator.Word */
+.w { color: #bbbbbb } /* Text.Whitespace */
+.mf { color: #0000DD; font-weight: bold } /* Literal.Number.Float */
+.mh { color: #0000DD; font-weight: bold } /* Literal.Number.Hex */
+.mi { color: #0000DD; font-weight: bold } /* Literal.Number.Integer */
+.mo { color: #0000DD; font-weight: bold } /* Literal.Number.Oct */
+.sb { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Backtick */
+.sc { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Char */
+.sd { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Doc */
+.s2 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Double */
+.se { color: #0044dd; background-color: #fff0f0 } /* Literal.String.Escape */
+.sh { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Heredoc */
+.si { color: #3333bb; background-color: #fff0f0 } /* Literal.String.Interpol */
+.sx { color: #22bb22; background-color: #f0fff0 } /* Literal.String.Other */
+.sr { color: #008800; background-color: #fff0ff } /* Literal.String.Regex */
+.s1 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Single */
+.ss { color: #aa6600; background-color: #fff0f0 } /* Literal.String.Symbol */
+.bp { color: #003388 } /* Name.Builtin.Pseudo */
+.vc { color: #336699 } /* Name.Variable.Class */
+.vg { color: #dd7700 } /* Name.Variable.Global */
+.vi { color: #3333bb } /* Name.Variable.Instance */
+.il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
+        </style>
+    </head>
+    <body>
+
+<h1>Subscriptions</h1>
+<pre>
+<div class="highlight"><pre><a name="Subscriptions.py-pyg.html-1"></a><span class="sd">&quot;&quot;&quot;</span>
+<a name="Subscriptions.py-pyg.html-2"></a><span class="sd">*******************************************************************</span>
+<a name="Subscriptions.py-pyg.html-3"></a><span class="sd">  Copyright (c) 2013, 2014 IBM Corp.</span>
+<a name="Subscriptions.py-pyg.html-4"></a><span class="sd"> </span>
+<a name="Subscriptions.py-pyg.html-5"></a><span class="sd">  All rights reserved. This program and the accompanying materials</span>
+<a name="Subscriptions.py-pyg.html-6"></a><span class="sd">  are made available under the terms of the Eclipse Public License v1.0</span>
+<a name="Subscriptions.py-pyg.html-7"></a><span class="sd">  and Eclipse Distribution License v1.0 which accompany this distribution. </span>
+<a name="Subscriptions.py-pyg.html-8"></a><span class="sd"> </span>
+<a name="Subscriptions.py-pyg.html-9"></a><span class="sd">  The Eclipse Public License is available at </span>
+<a name="Subscriptions.py-pyg.html-10"></a><span class="sd">     http://www.eclipse.org/legal/epl-v10.html</span>
+<a name="Subscriptions.py-pyg.html-11"></a><span class="sd">  and the Eclipse Distribution License is available at </span>
+<a name="Subscriptions.py-pyg.html-12"></a><span class="sd">    http://www.eclipse.org/org/documents/edl-v10.php.</span>
+<a name="Subscriptions.py-pyg.html-13"></a><span class="sd"> </span>
+<a name="Subscriptions.py-pyg.html-14"></a><span class="sd">  Contributors:</span>
+<a name="Subscriptions.py-pyg.html-15"></a><span class="sd">     Ian Craggs - initial implementation and/or documentation</span>
+<a name="Subscriptions.py-pyg.html-16"></a><span class="sd">*******************************************************************</span>
+<a name="Subscriptions.py-pyg.html-17"></a><span class="sd">&quot;&quot;&quot;</span>
+<a name="Subscriptions.py-pyg.html-18"></a>
+<a name="Subscriptions.py-pyg.html-19"></a><span class="kn">import</span> <span class="nn">time</span><span class="o">,</span> <span class="nn">logging</span>
+<a name="Subscriptions.py-pyg.html-20"></a>
+<a name="Subscriptions.py-pyg.html-21"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s">&#39;MQTT broker&#39;</span><span class="p">)</span>
+<a name="Subscriptions.py-pyg.html-22"></a> 
+<a name="Subscriptions.py-pyg.html-23"></a><span class="k">class</span> <span class="nc">Subscriptions</span><span class="p">:</span>
+<a name="Subscriptions.py-pyg.html-24"></a>
+<a name="Subscriptions.py-pyg.html-25"></a>  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">aClientid</span><span class="p">,</span> <span class="n">aTopic</span><span class="p">,</span> <span class="n">aQos</span><span class="p">):</span>
+<a name="Subscriptions.py-pyg.html-26"></a>    <span class="bp">self</span><span class="o">.</span><span class="n">__clientid</span> <span class="o">=</span> <span class="n">aClientid</span>
+<a name="Subscriptions.py-pyg.html-27"></a>    <span class="bp">self</span><span class="o">.</span><span class="n">__topic</span> <span class="o">=</span> <span class="n">aTopic</span>
+<a name="Subscriptions.py-pyg.html-28"></a>    <span class="bp">self</span><span class="o">.</span><span class="n">__qos</span> <span class="o">=</span> <span class="n">aQos</span>
+<a name="Subscriptions.py-pyg.html-29"></a>
+<a name="Subscriptions.py-pyg.html-30"></a>  <span class="k">def</span> <span class="nf">getClientid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a name="Subscriptions.py-pyg.html-31"></a>    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__clientid</span>
+<a name="Subscriptions.py-pyg.html-32"></a>
+<a name="Subscriptions.py-pyg.html-33"></a>  <span class="k">def</span> <span class="nf">getTopic</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a name="Subscriptions.py-pyg.html-34"></a>    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__topic</span>
+<a name="Subscriptions.py-pyg.html-35"></a>
+<a name="Subscriptions.py-pyg.html-36"></a>  <span class="k">def</span> <span class="nf">getQoS</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a name="Subscriptions.py-pyg.html-37"></a>    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__qos</span>
+<a name="Subscriptions.py-pyg.html-38"></a>
+<a name="Subscriptions.py-pyg.html-39"></a>  <span class="k">def</span> <span class="nf">resubscribe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">qos</span><span class="p">):</span>
+<a name="Subscriptions.py-pyg.html-40"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s">&quot;[MQTT-1.1.0-1] resubscription for client </span><span class="si">%s</span><span class="s"> on topic </span><span class="si">%s</span><span class="s">&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__clientid</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__topic</span><span class="p">)</span>
+<a name="Subscriptions.py-pyg.html-41"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s">&quot;[MQTT-3.8.4-3] resubscription for client </span><span class="si">%s</span><span class="s"> on topic </span><span class="si">%s</span><span class="s">&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__clientid</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__topic</span><span class="p">)</span>
+<a name="Subscriptions.py-pyg.html-42"></a>    <span class="bp">self</span><span class="o">.</span><span class="n">__qos</span> <span class="o">=</span> <span class="n">qos</span>
+<a name="Subscriptions.py-pyg.html-43"></a>
+<a name="Subscriptions.py-pyg.html-44"></a>  <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a name="Subscriptions.py-pyg.html-45"></a>    <span class="k">return</span> <span class="nb">repr</span><span class="p">({</span><span class="s">&quot;clientid&quot;</span><span class="p">:</span><span class="bp">self</span><span class="o">.</span><span class="n">__clientid</span><span class="p">,</span> <span class="s">&quot;topic&quot;</span><span class="p">:</span><span class="bp">self</span><span class="o">.</span><span class="n">__topic</span><span class="p">,</span> <span class="s">&quot;qos&quot;</span><span class="p">:</span><span class="bp">self</span><span class="o">.</span><span class="n">__qos</span><span class="p">})</span>
+</pre></div>
+
+</pre>
+
+    </body>
+</html>

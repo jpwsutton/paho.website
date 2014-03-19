@@ -75,6 +75,7 @@
                               <li><a href="/paho/new/#mqtt">About MQTT</a></li>
                               <li><a href="/paho/new/#articles">Featured Articles</a></li>
                               <li><a href="http://wiki.eclipse.org/Paho">Project Wiki</a></li>
+                              <li><a href="/paho/new/branding">Branding</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

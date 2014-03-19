@@ -71,7 +71,7 @@
                     </div>
                     <div class="offset2 span4 article-box">
                         <p class="lead"><span class="quote lquote">&ldquo;</span>How would you connect the information from a temperature sensor on a BeagleBone Black to an LED display on a Raspberry Pi and would your solution scale up to many sensors and displays? In this article we’ll show how MQTT and the Eclipse Paho project can let you answer that challenge.<span class="quote rquote">&rdquo;</span></p>
-                        <p class="article-link"><a href="http://www.eclipse.org/paho/talkingsmall/talking_small.html">Talking Small: Using Eclipse Paho's MQTT on BeagleBone Black and Raspberry Pi &raquo;</a></p>
+                        <p class="article-link"><a href="http://www.eclipse.org/paho/new/articles/talkingsmall/">Talking Small: Using Eclipse Paho's MQTT on BeagleBone Black and Raspberry Pi &raquo;</a></p>
                     </div>
                 </div>
             </div>

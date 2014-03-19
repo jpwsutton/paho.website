@@ -13,7 +13,7 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
         <!-- Custom Fonts --><!-- Le fav and touch icons -->
-        <link rel="shortcut icon" href="/paho/images/favicon.png">
+        <link rel="shortcut icon" href="/paho/new/images/favicon.png">
         <link href="/paho/new/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
         <link href="/paho/new/css/bootstrap-responsive.min.css" rel="stylesheet" type='text/css'>
         <link href="/paho/new/css/style.css" rel="stylesheet" type='text/css'><!-- HTML5 shim, for IE6-8 support of HTML elements -->
@@ -42,7 +42,7 @@
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></a>
-                    <a class="brand" href="/paho">eclipse.org/paho</a>
+                    <a class="brand" href="/paho/new">eclipse.org/paho</a>
                     <div class="nav-collapse">
                     
                       <ul class="nav navbar-nav">

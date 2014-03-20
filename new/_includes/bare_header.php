@@ -87,7 +87,7 @@
                         </li>
                       </ul>
                         <ul class="nav pull-right">
-                            <li style="font-size:0.8em;">Paho is an <a style="display: inline-block; padding-left: 0px; padding-right: 0px;" href="http://m2m.eclipse.org">m2m.eclipse.org</a> project&nbsp;&nbsp;
+                            <li style="font-size:0.8em;">Paho is an <a style="display: inline-block; padding-left: 0px; padding-right: 0px;" href="http://iot.eclipse.org">iot.eclipse.org</a> project&nbsp;&nbsp;
                             </li>
                             <li style="line-height: 55px">
                                 <div class="googleplus">

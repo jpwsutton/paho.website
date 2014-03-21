@@ -101,7 +101,7 @@
                             <li><a href="clients/c/">C/C++ Clients</a>
                                 <ul class="clientlist">
                                     <li><a href="clients/c/">MQTT for Posix and Windows</a></li>
-                                    <li><a href="clients/cpp/">C++ Client</a></li>
+                                    <li><a href="clients/cpp/">MQTT C++ (Posix and Windows)</a></li>
                                     <li><a href="clients/c/embedded">Embdedded MQTT</a></li>
                                     <li><a href="clients/c/embedded-sn">Embdedded MQTT-SN</a></li>
                                 </ul>

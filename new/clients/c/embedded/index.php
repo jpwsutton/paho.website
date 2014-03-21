@@ -9,8 +9,8 @@ environments with these characteristics:
 <ul>
 <li>very limited resources - pick and choose the components needed</li>
 <li>not reliant on any particular libraries for sockets, threads or memory allocations</li>
-<lI>ANSI standard C for maximum portability, at least at the lowest level
-</il>
+<li>ANSI standard C for maximum portability, at least at the lowest level</li>
+</ul>
 
 environments such as mbed and FreeRTOS.
 </p>

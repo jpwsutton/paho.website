@@ -22,7 +22,8 @@ environments such as <a href="http://mbed.org">mbed</a> and <a href="http://free
 
 <h2 id="download">Download</h2>
 
-<p>There are no downloads yet, and may never be, because .</p>
+<p>There are no downloads yet, and may never be, because the code is intended to be used in the smallest
+pieces needed.</p>
 
 <h2 id="build-from-source">Building from source</h2>
 

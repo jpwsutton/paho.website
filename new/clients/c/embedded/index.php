@@ -1,6 +1,6 @@
-<?php include '../../_includes/header.php' ?>
+<?php include '../../../_includes/header.php' ?>
 
-<h1>Embdedded MQTT C Client</h1>
+<h1>Embedded MQTT C Client</h1>
 
 <p>The "full" Paho MQTT C client library was written with Linux and Windows in mind.  It assumes the existence of
 Posix or Windows libraries for networking (sockets), threads and memory allocation. This library was designed for
@@ -60,5 +60,5 @@ rc = Socket_new("127.0.0.1", 1883, &mysock);
 rc = write(mysock, buf, len);
 rc = close(mysock);
 </pre>
-<?php include '../../_includes/footer.php' ?>
+<?php include '../../../_includes/footer.php' ?>
 

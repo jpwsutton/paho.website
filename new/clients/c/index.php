@@ -15,7 +15,7 @@ the operation has completed, which makes programming easier.  In contrast, no ca
 
 <h2 id="download">Download</h2>
 
-<p>Builds can be downloaded <a href="build.eclipse.org/technology/paho/C/">here</a>.</p>
+<p>Builds can be downloaded <a href="http://build.eclipse.org/technology/paho/C/">here</a>.</p>
 
 <h2 id="build-from-source">Building from source</h2>
 

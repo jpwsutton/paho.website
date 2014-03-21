@@ -98,13 +98,14 @@
                     <div class="offset2 span4">
                         <h3>Clients</h3>
                         <ul class="clientlist">
-                            <li><a href="clients/c/">C Client</a></li>
+                            <li><a href="clients/c/">C/C++ Clients</a>
                                 <ul class="clientlist">
-                                    <li><a href="clients/c/">MQTT for Posix (Linux ahd MacOS) and Windows</a></li>
-                                    <li><a href="clients/c/">Embdedded MQTT</a></li>
-                                    <li><a href="clients/c/">Embdedded MQTT-SN</a></li>
+                                    <li><a href="clients/c/">MQTT for Posix and Windows</a></li>
+                                    <li><a href="clients/cpp/">C++ Client</a></li>
+                                    <li><a href="clients/c/embedded">Embdedded MQTT</a></li>
+                                    <li><a href="clients/c/embedded-sn">Embdedded MQTT-SN</a></li>
                                 </ul>
-                            <li><a href="clients/cpp/">C++ Client</a></li>
+                            </li>
                             <li><a href="clients/java/">Java Clients</a>
                                 <ul class="clientlist">
                                     <li><a href="clients/java/">J2SE Client</a></li>

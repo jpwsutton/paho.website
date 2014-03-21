@@ -5,6 +5,7 @@
 <p>The "full" Paho MQTT C client library was written with Linux and Windows in mind.  It assumes the existence of
 Posix or Windows libraries for networking (sockets), threads and memory allocation. This library was designed for
 environments with these characteristics:
+</p>
 
 <ul>
 <li>very limited resources - pick and choose the components needed</li>
@@ -12,7 +13,8 @@ environments with these characteristics:
 <li>ANSI standard C for maximum portability, at least at the lowest level</li>
 </ul>
 
-environments such as mbed and FreeRTOS.
+<p>
+environments such as <a href="http://mbed.org">mbed</a> and <a href="http://freertos.org">FreeRTOS</a>.
 </p>
 
 <h2 id="source">Source</h2>

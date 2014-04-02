@@ -11,8 +11,8 @@
 <p>Once you have installed Go and <a href="http://golang.org/doc/code.html">configured</a> your environment you can install the Paho Go client by running;</p>
 <pre><code>go get git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git</code></pre>
 
-<h2 id="build-from-source">Building from source</h2>
-<p></p>
+<!-- <h2 id="build-from-source">Building from source</h2>
+<p></p> -->
 
 <h2 id="documentation">Documentation</h2>
 <p>API documentation for the Paho Go client is available at <a href="https://godoc.org/git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git"https://godoc.org/git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git></a>

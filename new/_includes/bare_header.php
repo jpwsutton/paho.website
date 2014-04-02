@@ -60,7 +60,7 @@
                                 </li>
                                 <li><a href="/paho/new/clients/js/">JavaScript</a></li>
                                 <li><a href="/paho/new/clients/python/">Python</a></li>
-                                <li><a href="/paho/new/clients/go/">Go</a></li>
+                                <li><a href="/paho/new/clients/golang/">Go</a></li>
                                 <li><a href="/paho/new/clients/lua/">Lua</a></li>
                                 <li class="nav-header">Utilities</li>
                                 <li><a href="/paho/new/utilities/client-view/">MQTT Eclipse Client View (IDE plugin)</a></li>

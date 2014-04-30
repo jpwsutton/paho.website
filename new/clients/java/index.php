@@ -43,7 +43,7 @@ mvn package -DskipTests
 <p>Reference documentation is online at: <a href="http://www.eclipse.org/paho/files/javadoc/index.html">http://www.eclipse.org/paho/files/javadoc/index.html</a>
 
 <h3 id="getting-started">Getting Started</h3>
-<p>The included code below is a very basic sample
+<p>The included code below is a very basic sample that connects to a server and publishes a message using the MqttClient synchronous API. More extensive samples demonstrating the use of the Asynchronous API can be found in the <code>org.eclipse.paho.sample.mqttv3app</code> directory of the source.</p>
 
 <pre>
 import org.eclipse.paho.client.mqttv3.MqttClient;

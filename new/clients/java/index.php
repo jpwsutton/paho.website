@@ -19,24 +19,22 @@ mvn package -DskipTests
 <h2 id="download">Download</h2>
 <p>Eclipse hosts a Nexus for those who want to use Maven to manage their dependencies. The two sections below can be added to your pom.xml to configure it to look on the eclipse Nexus and download the Paho Java library. Replace %REPOURL% with either https://repo.eclipse.org/content/repositories/paho-releases/ for the official releases, or https://repo.eclipse.org/content/repositories/paho-snapshots/ for the nightly snapshots. Replace %VERSION% with the level required</p>
 <pre>
-<code>
-<project ...>
-<repositories>
-    <repository>
-        <id>Eclipse Paho Repo</id>
-        <url>%REPOURL%</url>
-    </repository>
-</repositories>
+&lt;project ...&gt;
+&lt;repositories&gt;
+    &lt;repository&gt;
+        &lt;id&gt;Eclipse Paho Repo&lt;/id&gt;
+        &lt;url&gt;%REPOURL%&lt;/url&gt;
+    &lt;/repository&gt;
+&lt;/repositories&gt;
 ...
-<dependencies>
-    <dependency>
-        <groupId>org.eclipse.paho</groupId>
-        <artifactId>mqtt-client</artifactId>
-        <version>%VERSION%</version>
-    </dependency>
-</dependencies>
-</project>
-</code>
+&lt;dependencies&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.eclipse.paho&lt;/groupId&gt;
+        &lt;artifactId&gt;mqtt-client&lt;/artifactId&gt;
+        &lt;version&gt;%VERSION%&lt;/version&gt;
+    &lt;/dependency&gt;
+&lt;/dependencies&gt;
+&lt;/project&gt;
 </pre>
 
 <p>Alternatively the Paho Java library jars can be downloaded directly from the previous URLs</p>

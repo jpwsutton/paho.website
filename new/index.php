@@ -115,7 +115,7 @@
                             </li>
                             <li><a href="clients/js/">JavaScript Client</a></li>
                             <li><a href="clients/python/">Python Client</a></li>
-                            <li><a href="clients/go/">Go Client</a></li>
+                            <li><a href="clients/golang/">Go Client</a></li>
                             <li><a href="clients/lua/">Lua Client</a></li>
                         </ul>
                     </div>

@@ -27,7 +27,7 @@ make
 
 <h2 id="documentation">Documentation</h2>
 
-Reference documentation is online at: http://www.eclipse.org/paho/files/cppdoc/index.html.
+<p>Reference documentation is <a href="http://www.eclipse.org/paho/files/cppdoc/index.html">online</a>.</p>
 
 <h3 id="getting-started">Getting Started</h3>
 

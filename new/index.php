@@ -124,6 +124,7 @@
                         <ul class="clientlist">
                             <li><a href="#">MQTT Eclipse Client View (IDE plugin)</a></li>
                             <li><a href="#">MQTT Client Utility (java)</a></li>
+                            <li><a href="clients/testing">MQTT Conformance/Interoperability Testing</a></li>
                         </ul>
                     </div>
                 </div>

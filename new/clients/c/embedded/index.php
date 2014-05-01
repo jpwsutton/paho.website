@@ -1,20 +1,19 @@
 <?php include '../../../_includes/header.php' ?>
 
-<h1>Embedded MQTT C Client</h1>
+<h1>Embedded MQTT C/C++ Client</h1>
 
 <p>The "full" Paho MQTT C client library was written with Linux and Windows in mind.  It assumes the existence of
-Posix or Windows libraries for networking (sockets), threads and memory allocation. This library was designed for
-environments with these characteristics:
+Posix or Windows libraries for networking (sockets), threads and memory allocation. This library is intended to have these characteristics:
 </p>
 
 <ul>
-<li>very limited resources - pick and choose the components needed</li>
-<li>not reliant on any particular libraries for sockets, threads or memory allocations</li>
-<li>ANSI standard C for maximum portability, at least at the lowest level</li>
+<li>use very limited resources - pick and choose the components needed</li>
+<li>not reliant on any particular libraries for networking, threading or memory management</li>
+<li>ANSI standard C for maximum portability, at the lowest level</li>
+<li>optional higher layer(s) in C and/or C++.</li>
 </ul>
 
-<p>
-environments such as <a href="http://mbed.org">mbed</a> and <a href="http://freertos.org">FreeRTOS</a>.
+<p>The library can be used on desktop operating systems, but is primarily aimed for environments such as <a href="http://mbed.org">mbed</a> and <a href="http://freertos.org">FreeRTOS</a>.
 </p>
 
 <h2 id="source">Source</h2>
@@ -22,8 +21,8 @@ environments such as <a href="http://mbed.org">mbed</a> and <a href="http://free
 
 <h2 id="download">Download</h2>
 
-<p>There are no downloads yet, and may never be, because the code is intended to be used in the smallest
-pieces needed.</p>
+<p>There are no downloads as yet, and may never be, because the code is intended to be used in the smallest
+pieces needed.  In that case, get the source.</p>
 
 <h2 id="build-from-source">Building from source</h2>
 

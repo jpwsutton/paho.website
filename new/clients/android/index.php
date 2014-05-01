@@ -9,8 +9,8 @@
 <p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.java.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.java.git/</a></p>
 
 <h2 id="building-from-source">Building from source</h2>
-<p>The Paho Android Service is contained within the Paho Java client repository which can be cloned from git with the following command
-<code>git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.javascript.git</code><p>
+<p>The Paho Android Service is contained within the Paho Java client repository which can be cloned from git with the following command<p>
+<code>git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.javascript.git</code>
 <p>The source code for the Paho Android Service can be found in the directory <code>org.eclipse.paho.android.service/org.eclipse.paho.android.service</code> relative to the directory the git repository was cloned into in the previous step.</p>
 <p>There are two other directories in <code>org.eclipse.paho.android.service</code>, <code>org.eclipse.paho.android.service.sample</code> which contains the source code to a sample application, and <code>org.eclipse.paho.android.service.test</code> which contains tests for the Android Service</p>
 <p>All three directories are also setup as eclipse projects that can be imported into an eclipse instance that has the <a href="http://developer.android.com/sdk/index.html">Android Development Tools</a> installed.

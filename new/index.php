@@ -109,8 +109,8 @@
                             <li><a href="clients/java/">Java Clients</a>
                                 <ul class="clientlist">
                                     <li><a href="clients/java/">J2SE Client</a></li>
-                                    <li><a href="clients/java/">J2ME Client</a></li>
-                                    <li><a href="clients/java/">Android Service</a></li>
+                                    <li><a href="clients/j2me/">J2ME Client</a></li>
+                                    <li><a href="clients/android/">Android Service</a></li>
                                 </ul>
                             </li>
                             <li><a href="clients/js/">JavaScript Client</a></li>

@@ -37,7 +37,9 @@ mvn package -DskipTests
 &lt;/project&gt;
 </pre>
 
-<p>Alternatively the Paho Java library jars can be downloaded directly from the previous URLs</p>
+<p>Alternatively the Paho Java library jars can be downloaded directly from the following URLs;</p>
+<p><a href="https://repo.eclipse.org/content/repositories/paho-releases/">https://repo.eclipse.org/content/repositories/paho-releases/</a> - Official Releases</p>
+<p><a href="https://repo.eclipse.org/content/repositories/paho-snapshots/">https://repo.eclipse.org/content/repositories/paho-snapshots/</a> - Nightly Snapshots</p>
 
 <h2 id="documentation">Documentation</h2>
 <p>Reference documentation is online at: <a href="http://www.eclipse.org/paho/files/javadoc/index.html">http://www.eclipse.org/paho/files/javadoc/index.html</a>

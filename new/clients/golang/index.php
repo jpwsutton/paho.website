@@ -20,10 +20,12 @@ Alternatively, once you have downloaded the src via <code>go get</code> you can 
 
 <h3 id="getting-started">Getting Started</h3>
 <p>The client can connect to a broker using TCP, TLS or a WebSocket connection. Ensure the broker you're using supports the connection type you wish to use.</p>
-<p>The type of connection required is specified by the scheme of the connection URL set in the ClientOptions struct, for example:<br>
-tcp://iot.eclipse.org:1883 - connect to iot.eclipse.org on port 1883 using plain TCP<br>
-ws://iot.eclipse.org:1883 - connect to iot.eclipse.org on port 1883 using WebSockets<br>
-tls://iot.eclipse.org:8883 - connect to iot.eclipse.org on port 8883 using TLS (ssl:// and tcps:// are synonyms for tls://)</p>
+<p>The type of connection required is specified by the scheme of the connection URL set in the ClientOptions struct, for example:
+<ul>
+<li><code>tcp://iot.eclipse.org:1883</code> - connect to iot.eclipse.org on port 1883 using plain TCP</li>
+<li><code>ws://iot.eclipse.org:1883</code> - connect to iot.eclipse.org on port 1883 using WebSockets</li>
+<li><code>tls://iot.eclipse.org:8883</code> - connect to iot.eclipse.org on port 8883 using TLS (ssl:// and tcps:// are synonyms for tls://)</li>
+</ul>
 
 
 <p>Here is a very simple example that subscribes to a topic and publishes 5 messages:<p>

@@ -423,6 +423,10 @@ footer li
     background: rgba(238, 230, 203, 0.5) !important;
 }
 
+.clientblock h3 { 
+    margin-top: 30px;
+}
+
 .clientlist {
     margin: 0;
     list-style-type: none;
@@ -430,15 +434,19 @@ footer li
 .clientlist li:hover {
     background: rgba(238, 230, 203, 0.5) !important;
 }
+
+.clientlist li.clientsublist:hover {
+    background: none !important;
+}
 .clientlist li {
     position: relative;
     border-radius: 3px;
 }
 .clientlist li li {
-    margin-left: 10px;
+    margin-left: 20px;
     
 }
-.clientlist>li>a {
+.clientlist>li {
     padding: 10px;
     display: block;
 }

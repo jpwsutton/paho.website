@@ -7,7 +7,6 @@
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Eclipse Paho is a set of scalable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and Internet of Things (IoT)">
-        <meta name="author" content="Nicholas O'Leary"><!--  styles -->
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -48,23 +47,35 @@
                       <ul class="nav navbar-nav">
                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li class="nav-header">Clients</li>
-                                <li><a href="/paho/new/clients/c/">C</a></li>
-                                <li><a href="/paho/new/clients/cpp/">C++</a></li>
+                                <li class="nav-header">MQTT</li>
+                                <li class="dropdown-submenu"><a tabindex="-1" href="#">C/C++</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/paho/new/clients/c/">C (Posix/Windows)</a></li>
+                                        <li><a href="/paho/new/clients/c/embedded/">C (Embedded)</a></li>
+                                        <li><a href="/paho/new/clients/cpp/">C++</a></li>
+                                    </ul>
+                                </li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">Java</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="/paho/new/clients/java/">J2SE</a></li>
-                                        <li><a href="/paho/new/clients/java/">J2ME</a></li>
-                                        <li><a href="/paho/new/clients/java/">Android Service</a></li>
+                                        <!-- <li><a href="/paho/new/clients/java/">J2ME</a></li> -->
+                                        <li><a href="/paho/new/clients/android/">Android Service</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="/paho/new/clients/js/">JavaScript</a></li>
                                 <li><a href="/paho/new/clients/python/">Python</a></li>
                                 <li><a href="/paho/new/clients/golang/">Go</a></li>
-                                <li><a href="/paho/new/clients/lua/">Lua</a></li>
+                                <!-- <li><a href="/paho/new/clients/lua/">Lua</a></li> -->
+                                <li class="nav-header">MQTT-SN</li>
+                                <li class="dropdown-submenu"><a tabindex="-1" href="#">C/C++</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/paho/new/clients/c/embedded-sn/">C (Embedded)</a></li>
+                                    </ul>
+                                </li>
                                 <li class="nav-header">Utilities</li>
-                                <li><a href="/paho/new/utilities/client-view/">MQTT Eclipse Client View (IDE plugin)</a></li>
-                                <li><a href="/paho/new/utilities/client-utility/">MQTT Client Utility (java)</a></li>
+                                <!-- <li><a href="/paho/new/utilities/client-view/">MQTT Eclipse Client View (IDE plugin)</a></li> -->
+                                <!-- <li><a href="/paho/new/utilities/client-utility/">MQTT Client Utility (java)</a></li> -->
+                                <li><a href="clients/testing">Interop Tests</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

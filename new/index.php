@@ -52,11 +52,13 @@
                             More information about the protocol can be found on the <a href="http://mqtt.org">MQTT.org community site</a>.
                         </p>
                         <p class="lead">
-                            There is a publically accessible server for the Eclipse M2M projects available at <code>m2m.eclipse.org</code>, port <code>1883</code>.
+                            There is a publically accessible sandbox server for the Eclipse IoT projects available at <code>iot.eclipse.org</code>, port <code>1883</code>.
                          </p>
+                        <!--
                         <p class="lead">
-                            Some live statistics are available at <a href="https://xively.com/feeds/59871/">https://xively.com/feeds/59871/</a><!-- and an HTTP bridge (which also displays a list of topics with retained publications) is deployed at <a href="http://eclipse.mqttbridge.com/">http://eclipse.mqttbridge.com</a>-->. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a>.
+                            Some live statistics are available at <a href="https://xively.com/feeds/59871/">https://xively.com/feeds/59871/</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a>.
                         </p>
+                       -->
                     </div>
                     <div class="span3" style="padding-top: 100px;"><img src="images/mqttorg-glow.png" /></div>
                  </div>
@@ -96,35 +98,44 @@
             <div class="container">
                 <div class="row clientblock">
                     <div class="offset2 span4">
-                        <h3>Clients</h3>
+                        <h3>MQTT Clients</h3>
                         <ul class="clientlist">
-                            <li><a href="clients/c/">C/C++ Clients</a>
+                            <li class="clientsublist">C/C++ Clients
                                 <ul class="clientlist">
-                                    <li><a href="clients/c/">MQTT for Posix and Windows</a></li>
-                                    <li><a href="clients/cpp/">MQTT C++ (Posix and Windows)</a></li>
-                                    <li><a href="clients/c/embedded">Embdedded MQTT</a></li>
+                                    <li><a href="clients/c/">C for Posix and Windows</a></li>
+                                    <li><a href="clients/c/embedded">C for embdedded systems</a></li>
+                                    <li><a href="clients/cpp/">C++ for Posix and Windows</a></li>
                                     <li><a href="clients/c/embedded-sn">Embdedded MQTT-SN</a></li>
                                 </ul>
                             </li>
-                            <li><a href="clients/java/">Java Clients</a>
+                            <li class="clientsublist">Java Clients
                                 <ul class="clientlist">
                                     <li><a href="clients/java/">J2SE Client</a></li>
-                                    <li><a href="clients/j2me/">J2ME Client</a></li>
+                                    <!-- <li><a href="clients/j2me/">J2ME Client</a></li> -->
                                     <li><a href="clients/android/">Android Service</a></li>
                                 </ul>
                             </li>
                             <li><a href="clients/js/">JavaScript Client</a></li>
                             <li><a href="clients/python/">Python Client</a></li>
                             <li><a href="clients/golang/">Go Client</a></li>
-                            <li><a href="clients/lua/">Lua Client</a></li>
+                            <!-- <li><a href="clients/lua/">Lua Client</a></li> -->
                         </ul>
                     </div>
                     <div class="span4">
                         <h3>Utilities</h3>
                         <ul class="clientlist">
-                            <li><a href="#">MQTT Eclipse Client View (IDE plugin)</a></li>
-                            <li><a href="#">MQTT Client Utility (java)</a></li>
+                            <!-- <li><a href="#">MQTT Eclipse Client View (IDE plugin)</a></li> -->
+                            <!-- <li><a href="#">MQTT Client Utility (java)</a></li> -->
                             <li><a href="clients/testing">MQTT Conformance/Interoperability Testing</a></li>
+                        </ul>
+<br/><br/>
+                        <h3>MQTT-SN Clients</h3>
+                        <ul class="clientlist">
+                            <li class="clientsublist">C/C++ Clients
+                                <ul class="clientlist">
+                                    <li><a href="clients/c/embedded-sn">C for embdedded systems</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>

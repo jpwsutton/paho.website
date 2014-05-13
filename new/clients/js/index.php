@@ -11,6 +11,8 @@ to a MQTT v3.1 server.</p>
 
 <p>The JavaScript client can be downloaded directly from the project's git repository <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/plain/src/mqttws31.js">here</a>.</p>
 
+<p>Please do <b>not</b> link directly to this url from your application.</p>
+
 <h2 id="build-from-source">Building from source</h2>
 <p>The project includes a maven-based build that produces a minified version of the client, runs unit tests and generates the documentation.</p>
 <p>To run the build, without the tests:</p>

@@ -21,8 +21,8 @@ Posix or Windows libraries for networking (sockets), threads and memory allocati
 
 <h2 id="download">Download</h2>
 
-<p>There are no downloads as yet, and may never be, because the code is intended to be used in the smallest
-pieces needed.  In that case, get the source.</p>
+<p>There are no pre-built downloads available. This code is intended to be used in 
+the smallest pieces needed for the particular embedded system.</p>
 
 <h2 id="build-from-source">Building from source</h2>
 

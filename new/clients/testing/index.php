@@ -33,7 +33,8 @@ git clone git://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.testing.git
 
 <h2 id="documentation">Documentation</h2>
 
-More detailed information is available at: https://wiki.eclipse.org/Interop_Testing_Plan.
+<p>More detailed information is available <a href="https://wiki.eclipse.org/Interop_Testing_Plan">here</a>.
+</p>
 
 <h3 id="getting-started">Getting Started</h3>
 

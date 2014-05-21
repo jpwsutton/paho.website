@@ -12,13 +12,13 @@ the operation has completed, which makes programming easier.  In contrast, no ca
 
 <h2 id="source">Source</h2>
 
-<p>Source tarballs are available. <a href="http://www.eclipse.org/downloads/download.php?file=/paho/0.9.0/eclipse-paho-mqtt-c-src-incubation-0.9.0.tar.gz">0.9</a>.
+<p>Source tarballs are available. <a href="http://www.eclipse.org/downloads/download.php?file=/paho/0.9/eclipse-paho-mqtt-c-src-incubation-0.9.0.tar.gz">0.9</a>.
 
 <p>Source can also be obtained directly from the repository <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/</a></p>
 
 <h2 id="download">Download</h2>
 
-<p>Pre-built release 0.9 binaries for <a href="http://www.eclipse.org/downloads/download.php?file=/paho/0.9.0/eclipse-paho-mqtt-c-src-linux-0.9.0.tar.gz">Linux</a>, <a href="http://www.eclipse.org/downloads/download.php?file=/paho/0.9.0/eclipse-paho-mqtt-c-src-linux-0.9.0.zip">Windows</a> and <a href="http://www.eclipse.org/downloads/download.php?file=/paho/0.9.0/eclipse-paho-mqtt-c-src-mac-0.9.0.tar.gz">Mac</a> are available.
+<p>Pre-built release 0.9 binaries for <a href="http://www.eclipse.org/downloads/download.php?file=/paho/0.9/eclipse-paho-mqtt-c-unix-incubation-0.9.0.tar.gz">Linux</a>, <a href="http://www.eclipse.org/downloads/download.php?file=/paho/0.9/eclipse-paho-mqtt-c-windows-incubation-0.9.0.zip">Windows</a> and <a href="http://www.eclipse.org/downloads/download.php?file=/paho/0.9/eclipse-paho-mqtt-c-mac-incubation-0.9.0.tar.gz">Mac</a> are available.
 
 <p>Development builds can also be downloaded <a href="http://build.eclipse.org/technology/paho/C/">here</a>.</p>
 

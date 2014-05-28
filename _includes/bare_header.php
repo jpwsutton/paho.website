@@ -12,10 +12,10 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
         <!-- Custom Fonts --><!-- Le fav and touch icons -->
-        <link rel="shortcut icon" href="/paho/new/images/favicon.png">
-        <link href="/paho/new/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
-        <link href="/paho/new/css/bootstrap-responsive.min.css" rel="stylesheet" type='text/css'>
-        <link href="/paho/new/css/style.css" rel="stylesheet" type='text/css'><!-- HTML5 shim, for IE6-8 support of HTML elements -->
+        <link rel="shortcut icon" href="/paho/images/favicon.png">
+        <link href="/paho/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+        <link href="/paho/css/bootstrap-responsive.min.css" rel="stylesheet" type='text/css'>
+        <link href="/paho/css/style.css" rel="stylesheet" type='text/css'><!-- HTML5 shim, for IE6-8 support of HTML elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
             <![endif]-->
@@ -41,7 +41,7 @@
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></a>
-                    <a class="brand" href="/paho/new">eclipse.org/paho</a>
+                    <a class="brand" href="/paho/">eclipse.org/paho</a>
                     <div class="nav-collapse">
                     
                       <ul class="nav navbar-nav">
@@ -50,43 +50,43 @@
                                 <li class="nav-header">MQTT</li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">C/C++</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/paho/new/clients/c/">C (Posix/Windows)</a></li>
-                                        <li><a href="/paho/new/clients/c/embedded/">C (Embedded)</a></li>
-                                        <li><a href="/paho/new/clients/cpp/">C++</a></li>
+                                        <li><a href="/paho/clients/c/">C (Posix/Windows)</a></li>
+                                        <li><a href="/paho/clients/c/embedded/">C (Embedded)</a></li>
+                                        <li><a href="/paho/clients/cpp/">C++</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">Java</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/paho/new/clients/java/">J2SE</a></li>
-                                        <!-- <li><a href="/paho/new/clients/java/">J2ME</a></li> -->
-                                        <li><a href="/paho/new/clients/android/">Android Service</a></li>
+                                        <li><a href="/paho/clients/java/">J2SE</a></li>
+                                        <!-- <li><a href="/paho/clients/java/">J2ME</a></li> -->
+                                        <li><a href="/paho/clients/android/">Android Service</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="/paho/new/clients/js/">JavaScript</a></li>
-                                <li><a href="/paho/new/clients/python/">Python</a></li>
-                                <li><a href="/paho/new/clients/golang/">Go</a></li>
-                                <!-- <li><a href="/paho/new/clients/lua/">Lua</a></li> -->
+                                <li><a href="/paho/clients/js/">JavaScript</a></li>
+                                <li><a href="/paho/clients/python/">Python</a></li>
+                                <li><a href="/paho/clients/golang/">Go</a></li>
+                                <!-- <li><a href="/paho/clients/lua/">Lua</a></li> -->
                                 <li class="nav-header">MQTT-SN</li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">C/C++</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/paho/new/clients/c/embedded-sn/">C (Embedded)</a></li>
+                                        <li><a href="/paho/clients/c/embedded-sn/">C (Embedded)</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-header">Utilities</li>
-                                <!-- <li><a href="/paho/new/utilities/client-view/">MQTT Eclipse Client View (IDE plugin)</a></li> -->
-                                <!-- <li><a href="/paho/new/utilities/client-utility/">MQTT Client Utility (java)</a></li> -->
-                                <li><a href="clients/testing">Interop Tests</a></li>
+                                <!-- <li><a href="/paho/utilities/client-view/">MQTT Eclipse Client View (IDE plugin)</a></li> -->
+                                <!-- <li><a href="/paho/utilities/client-utility/">MQTT Client Utility (java)</a></li> -->
+                                <li><a href="/paho/clients/testing/">Interop Tests</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                              <li><a href="/paho/new/#getting-started">Getting Started</a></li>
-                              <li><a href="/paho/new/#contributing">Contributing</a></li>
-                              <li><a href="/paho/new/#mqtt">About MQTT</a></li>
-                              <li><a href="/paho/new/#articles">Featured Articles</a></li>
+                              <li><a href="/paho/#getting-started">Getting Started</a></li>
+                              <li><a href="/paho/#contributing">Contributing</a></li>
+                              <li><a href="/paho/#mqtt">About MQTT</a></li>
+                              <li><a href="/paho/#articles">Featured Articles</a></li>
                               <li><a href="http://wiki.eclipse.org/Paho">Project Wiki</a></li>
-                              <li><a href="/paho/new/branding">Branding</a></li>
+                              <li><a href="/paho/branding">Branding</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

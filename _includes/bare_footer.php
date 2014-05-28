@@ -21,8 +21,8 @@
                 </div>
             </div>
         </div><!--  Footer end-->
-        <script src="/paho/new/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-        <script src="/paho/new/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/paho/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="/paho/js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
 

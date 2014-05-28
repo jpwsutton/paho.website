@@ -103,9 +103,9 @@
                             <li class="clientsublist">C/C++ Clients
                                 <ul class="clientlist">
                                     <li><a href="clients/c/">C for Posix and Windows</a></li>
-                                    <li><a href="clients/c/embedded">C for embdedded systems</a></li>
+                                    <li><a href="clients/c/embedded">C for embedded systems</a></li>
                                     <li><a href="clients/cpp/">C++ for Posix and Windows</a></li>
-                                    <li><a href="clients/c/embedded-sn">Embdedded MQTT-SN</a></li>
+                                    <li><a href="clients/c/embedded-sn">Embedded MQTT-SN</a></li>
                                 </ul>
                             </li>
                             <li class="clientsublist">Java Clients
@@ -133,7 +133,7 @@
                         <ul class="clientlist">
                             <li class="clientsublist">C/C++ Clients
                                 <ul class="clientlist">
-                                    <li><a href="clients/c/embedded-sn">C for embdedded systems</a></li>
+                                    <li><a href="clients/c/embedded-sn">C for embedded systems</a></li>
                                 </ul>
                             </li>
                         </ul>

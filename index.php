@@ -162,7 +162,7 @@
                                 <li>Ensure you have signed the Eclipse Foundation Contributor License Agreement (CLA)</li>
                                 <li>Fork the git repository of the component you want to contribute to</li>
                                 <li>Fix the issue and add suitable tests</li>
-                                <li>Ensure you contribution is collapsed into a single commit</li>
+                                <li>Ensure your contribution is collapsed into a single commit</li>
                                 <li>Submit your contribution to the corresponding gerrit repository</li>
                             </ol>
                         </p>

@@ -79,7 +79,7 @@
             </div>
         </div>
         <div id="getting-started">
-            <div class="container">
+            <div id="downloads" class="container">
                 <div class="row">
                     <div class="offset1 span8">
                         <h3>Getting Started</h3>

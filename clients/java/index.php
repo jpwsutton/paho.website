@@ -10,8 +10,8 @@
 
 <h2 id="building-from-source">Building from source</h2>
 <p>There are two active branches on the Paho Java git repository, "master" which is used to produce stable releases, and "develop" where active development is carried out. By default cloning the git repository will download the "master" branch, to download "develop" add <code>-b develop</code> to the end of the <code>git clone</code> line below</p>
-<pre><code>git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.javascript.git
-cd org.eclipse.paho.mqtt.javascript.git
+<pre><code>git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.java.git
+cd org.eclipse.paho.mqtt.java.git
 mvn package -DskipTests
 </code></pre>
 <p>This will build the client library without running the tests, the jars for the library, source and javadoc can be found in <code>org.eclipse.paho.client.mqttv3/target</code>

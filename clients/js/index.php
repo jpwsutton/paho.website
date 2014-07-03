@@ -23,6 +23,7 @@ mvn
 <p>The output of the build is copied to the <code>target</code> directory.</p>
 
 <h2 id="documentation">Documentation</h2>
+<p>Reference documentation is online at: <a href="http://www.eclipse.org/paho/files/jsdoc/index.html">http://www.eclipse.org/paho/files/jsdoc/index.html</a>
 
 <h3 id="getting-started">Getting Started</h3>
 <p>The client connects to a broker using a WebSocket connection. This requires the use of a broker that supports

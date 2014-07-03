@@ -8,8 +8,9 @@ to a MQTT v3.1 server.</p>
 <p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/</a></p>
 
 <h2 id="download">Download</h2>
+<p>A zip file containing the full and a minified version of the Javascript client can be downloaded from <a href="http://download.eclipse.org/paho/1.0/paho.javascript-1.0.0.zip">download.eclipse.org/paho/1.0/paho.javascript-1.0.0.zip</a>.
 
-<p>The JavaScript client can be downloaded directly from the project's git repository <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/plain/src/mqttws31.js">here</a>.</p>
+<p>Alternatively the JavaScript client can be downloaded directly from the project's git repository <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/plain/src/mqttws31.js">git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/plain/src/mqttws31.js</a>.</p>
 
 <p>Please do <b>not</b> link directly to this url from your application.</p>
 

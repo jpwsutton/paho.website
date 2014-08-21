@@ -44,7 +44,7 @@ the smallest pieces needed for the particular embedded system.</p>
 MQTTPacket_connectData data = MQTTPacket_connectData_initializer;
 int rc = 0;
 char buf[200];
-MQTTString topicString;
+MQTTString topicString = MQTTString_initializer;
 char* payload = "mypayload";
 int payloadlen = strlen(payload);int buflen = sizeof(buf);
 

@@ -20,8 +20,8 @@
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
             <![endif]-->
         <!-- Custom Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'><!-- Styles -->
+        <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'><!-- Styles -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 

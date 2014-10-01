@@ -24,6 +24,7 @@
 <p>Reference documentation is online at: <a href="http://www.eclipse.org/paho/files/android-javadoc/index.html">http://www.eclipse.org/paho/files/android-javadoc/index.html</a>
 
 <h3 id="getting-started">Getting Started</h3>
-<p>A sample application in source code form is included in the <code>org.eclipse.paho.android.service.sample</code> directory.</p>
+<p>A sample application in source code form is included in the <code>org.eclipse.paho.android.service.sample</code> directory. Click <a href="clients/android/sample/">here</a> to read the details of the getting started section.</p>
+
 
 <?php include '../../_includes/footer.php' ?>t

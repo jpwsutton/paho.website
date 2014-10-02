@@ -73,6 +73,8 @@
                                     </ul>
                                 </li>
                                 <li class="nav-header">Utilities</li>
+                                <li><a href="/paho/clients/tool/">Client Tools</a></li>
+                                <li><a href="/paho/clients/android/sample">Android Sample</a></li>
                                 <!-- <li><a href="/paho/utilities/client-view/">MQTT Eclipse Client View (IDE plugin)</a></li> -->
                                 <!-- <li><a href="/paho/utilities/client-utility/">MQTT Client Utility (java)</a></li> -->
                                 <li><a href="/paho/clients/testing/">Interop Tests</a></li>

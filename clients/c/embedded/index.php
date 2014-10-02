@@ -13,7 +13,7 @@ Posix or Windows libraries for networking (sockets), threads and memory allocati
 <li>optional higher layer(s) in C and/or C++.</li>
 </ul>
 
-<p>The library can be used on desktop operating systems, but is primarily aimed for environments such as <a href="http://mbed.org">mbed</a> and <a href="http://freertos.org">FreeRTOS</a>.
+<p>The library can be used on desktop operating systems, but is primarily aimed for environments such as <a href="http://mbed.org">mbed</a> and <a href="http://freertos.org">FreeRTOS</a>. This code is intended to be used in the smallest pieces needed for the particular embedded system.
 </p>
 
 <h2 id="source">Source</h2>
@@ -21,8 +21,7 @@ Posix or Windows libraries for networking (sockets), threads and memory allocati
 
 <h2 id="download">Download</h2>
 
-<p>There are no pre-built downloads available. This code is intended to be used in 
-the smallest pieces needed for the particular embedded system.</p>
+<p>A prebuilt Arduino client is <a href="https://www.eclipse.org/downloads/download.php?file=/paho/arduino.zip">available</a>. To use download and in the Arduino IDE use Sketch -> Import Library... -> Add Library... with the downloaded client zip file. A sample sketch demonstrating the client is available in the in the git repository in MQTTClient/samples/arduino/Hello</p>
 
 <h2 id="build-from-source">Building from source</h2>
 

@@ -89,6 +89,8 @@
                               <li><a href="/paho/#articles">Featured Articles</a></li>
                               <li><a href="http://wiki.eclipse.org/Paho">Project Wiki</a></li>
                               <li><a href="/paho/branding">Branding</a></li>
+                              <li><a href="https://projects.eclipse.org/projects/iot.paho">Project Details & Plans</a></li>
+                              <li><a href="https://www.eclipse.org/proposals/technology.paho/">Paho Proposal</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

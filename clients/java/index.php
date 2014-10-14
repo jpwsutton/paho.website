@@ -30,7 +30,7 @@ mvn package -DskipTests
 &lt;dependencies&gt;
     &lt;dependency&gt;
         &lt;groupId&gt;org.eclipse.paho&lt;/groupId&gt;
-        &lt;artifactId&gt;mqtt-client&lt;/artifactId&gt;
+        &lt;artifactId&gt;org.eclipse.paho.client.mqttv3&lt;/artifactId&gt;
         &lt;version&gt;%VERSION%&lt;/version&gt;
     &lt;/dependency&gt;
 &lt;/dependencies&gt;

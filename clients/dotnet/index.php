@@ -1,13 +1,13 @@
 <?php include '../../_includes/header.php' ?>
 
-<h1>.Net and WinRT Client</h1>
-<p>M2Mqtt is a MQTT client available for all .Net platforms (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platforms (Windows 8.1 and Windows Phone 8.1).</p>
+<h1>C# .Net and WinRT Client</h1>
+<p><b>M2Mqtt</b> is a MQTT client available for all .Net platforms (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platforms (Windows 8.1 and Windows Phone 8.1).</p>
 
 <h2 id="source">Source</h2>
 <p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.m2mqtt.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.m2mqtt.git/</a></p>
 
 <h2 id="download">Download</h2>
-<p>The .Net and WinRT client assemblies for using as references in your Visual Studio projects can be downloaded from <a href="https://www.eclipse.org/downloads/download.php?file=/paho/1.0/m2mqtt/M2Mqtt_3.6.0.0_bins.zip">here</a></p>
+<p>The M2Mqtt client assemblies for using as references in your Visual Studio projects can be downloaded from <a href="https://www.eclipse.org/downloads/download.php?file=/paho/1.0/m2mqtt/M2Mqtt_3.6.0.0_bins.zip">here</a></p>
 
 <h2 id="build-from-source">Building from source</h2>
 <p>The project can be installed from the repository as well. To do this:</p>

@@ -65,7 +65,7 @@
                                 <li><a href="/paho/clients/js/">JavaScript</a></li>
                                 <li><a href="/paho/clients/python/">Python</a></li>
                                 <li><a href="/paho/clients/golang/">Go</a></li>
-								<li><a href="/paho/clients/dotnet/">.Net and WinRT Client</a></li>
+								<li><a href="/paho/clients/dotnet/">C# .Net and WinRT</a></li>
                                 <!-- <li><a href="/paho/clients/lua/">Lua</a></li> -->
                                 <li class="nav-header">MQTT-SN</li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">C/C++</a>

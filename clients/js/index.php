@@ -32,7 +32,7 @@ WebSockets natively, or the use of a gateway that can forward between WebSockets
 
 <p>Here is a very simple example for using the client within a webpage:<p>
 <pre>// Create a client instance
-client = new Messaging.Client(location.hostname, Number(location.port), "clientId");
+client = new Paho.MQTT.Client(location.hostname, Number(location.port), "clientId");
 
 // set callback handlers
 client.onConnectionLost = onConnectionLost;
@@ -47,7 +47,7 @@ function onConnect() {
   // Once a connection has been made, make a subscription and send a message.
   console.log("onConnect");
   client.subscribe("/World");
-  message = new Messaging.Message("Hello");
+  message = new Paho.MQTT.Message("Hello");
   message.destinationName = "/World";
   client.send(message); 
 }

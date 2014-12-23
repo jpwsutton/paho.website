@@ -8,7 +8,7 @@ to a MQTT v3.1 server.</p>
 <p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/</a></p>
 
 <h2 id="download">Download</h2>
-<p>A zip file containing the full and a minified version of the Javascript client can be downloaded from <a href="http://download.eclipse.org/paho/1.0/paho.javascript-1.0.0.zip">download.eclipse.org/paho/1.0/paho.javascript-1.0.0.zip</a>.
+<p>A zip file containing the full and a minified version of the Javascript client can be downloaded from <a href="http://download.eclipse.org/paho/1.0/paho.javascript-1.0.1.zip">download.eclipse.org/paho/1.0/paho.javascript-1.0.1.zip</a>.
 
 <p>Alternatively the JavaScript client can be downloaded directly from the project's git repository <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/plain/src/mqttws31.js">git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/plain/src/mqttws31.js</a>.</p>
 
@@ -32,7 +32,7 @@ WebSockets natively, or the use of a gateway that can forward between WebSockets
 
 <p>Here is a very simple example for using the client within a webpage:<p>
 <pre>// Create a client instance
-client = new Messaging.Client(location.hostname, Number(location.port), "clientId");
+client = new Paho.MQTT.Client(location.hostname, Number(location.port), "clientId");
 
 // set callback handlers
 client.onConnectionLost = onConnectionLost;
@@ -47,7 +47,7 @@ function onConnect() {
   // Once a connection has been made, make a subscription and send a message.
   console.log("onConnect");
   client.subscribe("/World");
-  message = new Messaging.Message("Hello");
+  message = new Paho.MQTT.Message("Hello");
   message.destinationName = "/World";
   client.send(message); 
 }

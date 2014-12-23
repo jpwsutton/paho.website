@@ -11,7 +11,7 @@
 
 <h2 id="build-from-source">Building from source</h2>
 <p>The project can be installed from the repository as well. To do this:</p>
-<pre>git clone http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.m2mqtt.git</pre>
+<pre>git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.m2mqtt.git</pre>
 <p>You can open one of the available solutions for Visual Studio (in the "org.eclipse.paho.mqtt.m2mqtt" folder) depends on .Net or WinRT platform you want to use.</p>
 
 <h2 id="documentation">Documentation</h2>

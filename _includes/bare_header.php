@@ -98,7 +98,7 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
                           <ul class="dropdown-menu">
                             <li><a href="https://dev.eclipse.org/mailman/listinfo/paho-dev">Mailing List</a></li>
-                            <li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=Bug%20Number&list_id=4625660&classification=Technology&query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=Paho">Bug Tracker</a></li>
+                            <li><a href="https://bugs.eclipse.org/bugs/describecomponents.cgi?product=Paho">Bug Tracker</a></li>
                           </ul>
                         </li>
                       </ul>

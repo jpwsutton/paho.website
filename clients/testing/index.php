@@ -5,10 +5,9 @@
 <p>The aim of this project is to create a means by which it is easy to test both MQTT servers and client libraries, to 
 ensure
 <ul>
-<li>they conform to the MQTT 3.1.1 standard</li>
+<li>they conform to the <a href="https://www.oasis-open.org/standards#mqttv3.1.1">MQTT 3.1.1 standard</a></li>
 <li>and hence they can interoperate with each other, with the minimum of misunderstandings.</li>
 </ul>
-MQTT standardization is taking place under the aegis of <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt">OASIS</a>.  The latest version of the standard can be found <a href="https://www.oasis-open.org/standards#mqttv3.1.1">here</a>.
 </p>
 
 <p>The test material is all written in Python version 3 (Python 2.x is not sufficient).  The component of the test material are:

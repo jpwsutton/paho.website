@@ -6,7 +6,7 @@
                     <div class="offset1 span5"><img src="images/paho_logo_400.png" /></div>
                     <div class="span5">
                         <p class="lead">
-                            The Paho project provides scalable open-source client implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine&#8209;to&#8209;Machine (M2M) and Internet of Things (IoT).
+                            The Paho project provides open-source client implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine&#8209;to&#8209;Machine (M2M) and Internet of Things (IoT).
                         </p>
                     </div>
                 </div>
@@ -31,8 +31,8 @@
                     <div class="span4 feature-box">
                         <h2><i><img src="images/scale.png"></i></h2>
                         <div><h2>&nbsp;</h2></div>
-                        <p class="lead">Highly Scalable</p>
-                        <p>Paho focuses on highly scalable implementations that will integrate with a wide range of middleware, programming and messaging models.</p>
+                        <p class="lead">Reliable</p>
+                        <p>Paho focuses on reliable implementations that will integrate with a wide range of middleware, programming and messaging models.</p>
                     </div>
                 </div>
             </div>
@@ -45,8 +45,8 @@
                    <div class="offset1 span7">
                         <p class="lead">
                             MQTT is a light-weight publish/subscribe messaging protocol.
-                            Originally created by IBM and Arcom (later to become part of Eurotech) over ten years ago, the specification is available on the <a href="http://www.ibm.com/developerworks/webservices/library/ws-mqtt/index.html">IBM developerWorks site</a>,
-                            and is currently being standardised by the <a href="https://www.oasis-open.org/committees/mqtt/charter.php">OASIS consortium</a>.
+                            Originally created by IBM and Arcom (later to become part of Eurotech) over ten years ago. 
+                            The <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html">MQTT 3.1.1 specification</a> has now been standardised by the <a href="https://www.oasis-open.org/committees/mqtt/charter.php">OASIS consortium</a>.  The standard is available in a variety of <a href="https://www.oasis-open.org/standards#mqttv3.1.1">formats</a>.
                         </p>
                         <p class="lead">
                             More information about the protocol can be found on the <a href="http://mqtt.org">MQTT.org community site</a>.

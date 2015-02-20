@@ -44,8 +44,7 @@
                 <div class="row">
                    <div class="offset1 span7">
                         <p class="lead">
-                            MQTT is a light-weight publish/subscribe messaging protocol.
-                            Originally created by IBM and Arcom (later to become part of Eurotech) over ten years ago. 
+                            MQTT is a light-weight publish/subscribe messaging protocol, originally created by IBM and Arcom (later to become part of Eurotech) around 1998. 
                             The <a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html">MQTT 3.1.1 specification</a> has now been standardised by the <a href="https://www.oasis-open.org/committees/mqtt/charter.php">OASIS consortium</a>.  The standard is available in a variety of <a href="https://www.oasis-open.org/standards#mqttv3.1.1">formats</a>.
                         </p>
                         <p class="lead">

@@ -45,7 +45,7 @@
                     <div class="nav-collapse">
                     
                       <ul class="nav navbar-nav">
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li class="nav-header">MQTT</li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">C/C++</a>

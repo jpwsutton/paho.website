@@ -3,11 +3,24 @@
         <div id="intro">
             <div class="container">
                 <div class="row">
-                    <div class="offset1 span5"><img src="images/paho_logo_400.png" /></div>
-                    <div class="span5">
+                    <div class="offset1 span5">
+                        <img src="images/paho_logo_400.png" />
                         <p class="lead">
                             The Paho project provides open-source client implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine&#8209;to&#8209;Machine (M2M) and Internet of Things (IoT).
                         </p>
+                    </div>
+                    <div class="span5">
+                    <p></p>
+<table class="table table-condensed">
+<tr><th style="padding: 10px 0; font-size: 1.1em;">Current release: <b>1.1</b></th><th style="padding: 10px 0; font-size: 1.1em;"><a href="https://projects.eclipse.org/projects/technology.paho/downloads">download</a></th></tr>
+<tr><td>C client for Windows/Unix/Mac</td><td>1.0.3</td></tr>
+<tr><td>Java client and utilities</td><td>1.0.2</td></tr>
+<tr><td>Android service</td><td>1.0.2</td></tr>
+<tr><td>Python client</td><td>1.1</td></tr>
+<tr><td>JavaScript client</td><td>1.0.1</td></tr>
+<tr><td>C/C++ MQTT Embedded clients</td><td>1.0.0</td></tr>
+<tr><td>.Net and WinRT client (M2Mqtt)</td><td>4.0.0.0</td></tr>
+</table>
                     </div>
                 </div>
             </div>

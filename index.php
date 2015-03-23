@@ -12,14 +12,14 @@
                     <div class="span5">
                     <p></p>
 <table class="table table-condensed">
-<tr><th style="padding: 10px 0; font-size: 1.1em;">Current release: <b>1.1</b></th><th style="padding: 10px 0; font-size: 1.1em;"><a href="https://projects.eclipse.org/projects/technology.paho/downloads">download</a></th></tr>
-<tr><td>C client for Windows/Unix/Mac</td><td>1.0.3</td></tr>
-<tr><td>Java client and utilities</td><td>1.0.2</td></tr>
-<tr><td>Android service</td><td>1.0.2</td></tr>
-<tr><td>Python client</td><td>1.1</td></tr>
-<tr><td>JavaScript client</td><td>1.0.1</td></tr>
-<tr><td>C/C++ MQTT Embedded clients</td><td>1.0.0</td></tr>
-<tr><td>.Net and WinRT client (M2Mqtt)</td><td>4.0.0.0</td></tr>
+<tr><th style="padding: 10px 0; font-size: 1.1em;">Latest release: <b>1.1</b></th><th style="padding: 10px 0; font-size: 1.1em;"><a href="https://projects.eclipse.org/projects/technology.paho/downloads">Downloads</a></th></tr>
+<tr><td><a href="https://www.eclipse.org/paho/clients/c/">C client for Windows/Unix/Mac</a></td><td>1.0.3</td></tr>
+<tr><td><a href="https://www.eclipse.org/paho/clients/java/">Java client and utilities</a></td><td>1.0.2</td></tr>
+<tr><td><a href="https://www.eclipse.org/paho/clients/android/">Android service</a></td><td>1.0.2</td></tr>
+<tr><td><a href="https://www.eclipse.org/paho/clients/python/">Python client</a></td><td>1.1</td></tr>
+<tr><td><a href="https://www.eclipse.org/paho/clients/js/">JavaScript client</a></td><td>1.0.1</td></tr>
+<tr><td><a href="https://www.eclipse.org/paho/clients/c/embedded/">C/C++ MQTT Embedded clients</a></td><td>1.0.0</td></tr>
+<tr><td><a href="https://www.eclipse.org/paho/clients/dotnet/">.Net and WinRT client (M2Mqtt)</a></td><td>4.0.0.0</td></tr>
 </table>
                     </div>
                 </div>

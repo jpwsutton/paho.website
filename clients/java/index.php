@@ -19,7 +19,7 @@ mvn package -DskipTests
 <h2 id="download">Download</h2>
 <p>Eclipse hosts a Nexus repository for those who want to use Maven to manage their dependencies.</p>
 
-<p style="color:red"><b>Warning: The Java client library and utility components mqtt-client and mqtt-utility are old and only kept for reference.  They should not be used and may be removed in the future.  org.eclipse.paho.client.mqttv3 and org.eclipse.paho.mqtt.utility should be used instead.</b></p>
+<p style="color:red"><b>Warning: The Java client library and utility components mqtt-client and mqtt-utility (version 0.4) are old and only kept for reference.  They should not be used and may be removed in the future.  Versions 0.9 or later, org.eclipse.paho.client.mqttv3 and org.eclipse.paho.mqtt.utility should be used instead.</b></p>
 
 <p>The two sections below can be added to your pom.xml to configure it to look on the eclipse Nexus and download the Paho Java library. Replace %REPOURL% with either https://repo.eclipse.org/content/repositories/paho-releases/ for the official releases, or https://repo.eclipse.org/content/repositories/paho-snapshots/ for the nightly snapshots. Replace %VERSION% with the level required</p>
 <pre>

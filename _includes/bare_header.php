@@ -50,9 +50,9 @@
                                 <li class="nav-header">MQTT</li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">C/C++</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/paho/clients/c/">C (Posix/Windows)</a></li>
-                                        <li><a href="/paho/clients/c/embedded/">C (Embedded)</a></li>
+                                        <li><a href="/paho/clients/c/">C for Posix and Windows</a></li>
                                         <li><a href="/paho/clients/cpp/">C++</a></li>
+                                        <li><a href="/paho/clients/c/embedded/">Embedded C/C++</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">Java</a>

@@ -58,7 +58,7 @@ Posix or Windows libraries for networking (sockets), threads and memory allocati
 
 <p>Here is a simple publishing and subscribing program for the MQTTClient library on Linux:</p>
 
-<code><pre>
+<pre>
 #define MQTTCLIENT_QOS2 1
 
 #include "MQTTClient.h"
@@ -137,13 +137,13 @@ int main(int argc, char* argv[])
     
     return 0;
 }
-</pre></code>
+</pre>
 
 <h4>MQTTPacket</h3>
 
 <p>Here is the core of a simple publishing program for the MQTTPacket library:</p>
 
-<code><pre>
+<pre>
 MQTTPacket_connectData data = MQTTPacket_connectData_initializer;
 int rc = 0;
 char buf[200];
@@ -164,6 +164,6 @@ len += MQTTSerialize_disconnect(buf + len, buflen - len); /* 3 */
 rc = Socket_new("127.0.0.1", 1883, &mysock);
 rc = write(mysock, buf, len);
 rc = close(mysock);
-</pre></code>
+</pre>
 <?php include '../../../_includes/footer.php' ?>
 

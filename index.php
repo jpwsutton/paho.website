@@ -115,9 +115,8 @@
                             <li class="clientsublist">C/C++ Clients
                                 <ul class="clientlist">
                                     <li><a href="clients/c/">C for Posix and Windows</a></li>
-                                    <li><a href="clients/c/embedded">C for embedded systems</a></li>
                                     <li><a href="clients/cpp/">C++ for Posix and Windows</a></li>
-                                    <li><a href="clients/c/embedded-sn">Embedded MQTT-SN</a></li>
+                                    <li><a href="clients/c/embedded">C/C++ for embedded systems</a></li>
                                 </ul>
                             </li>
                             <li class="clientsublist">Java Clients

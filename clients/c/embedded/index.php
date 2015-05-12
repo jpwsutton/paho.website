@@ -30,9 +30,18 @@ Posix or Windows libraries for networking (sockets), threads and memory allocati
 <h2 id="source">Source</h2>
 <p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.embedded-c.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.embedded-c.git/</a></p>
 
-<h2 id="download">Download</h2>
+<h2 id="download">Downloads</h2>
+
+<p>In many or most cases, you will want to get the source from Paho and use it directly.  For some platforms, there are other ways of getting the client libraries, as outlined below.
+</p>
+
+<h3>Arduino</h3>
 
 <p>A prebuilt Arduino port of MQTTClient is available from the <a href="https://projects.eclipse.org/projects/technology.paho/downloads">Paho downloads page</a>. To use download and in the Arduino IDE use Sketch -> Import Library... -> Add Library... with the downloaded client zip file.  An example Arduino sketch demonstrating the client is included.</p>
+
+<h3>mbed</h3>
+
+<p>The Paho client libraries MQTTPacket and MQTTClient are available on the mbed platform for import into your applications in the <a href="https://developer.mbed.org/teams/mqtt/">MQTT team area</a>.
 
 <h2 id="build-from-source">Building from source</h2>
 

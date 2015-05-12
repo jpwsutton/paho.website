@@ -18,7 +18,7 @@ the operation has completed, which makes programming easier.  In contrast, no ca
 
 <p>Pre-built binaries for Windows, Linux and Mac are available from the <a href="https://projects.eclipse.org/projects/technology.paho/downloads">downloads page</a>.
 
-<p>The Windows binaries are built with Visual Studio 2013.  If you do not have this installed, you will need to install the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=40784">Visual C++ Redistributable Packages for Visual Studio 2013</a></p>.
+<p>The Windows binaries are built with Visual Studio 2013.  If you do not have this installed, you will need to install the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=40784">Visual C++ Redistributable Packages for Visual Studio 2013</a>.</p>
 
 <p>Development builds can also be downloaded <a href="http://build.eclipse.org/technology/paho/C/">here</a>.</p>
 

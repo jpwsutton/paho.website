@@ -3,7 +3,7 @@
 <h1>Embedded MQTT C/C++ Client Libraries</h1>
 
 <p>The "full" Paho MQTT C client library was written with Linux and Windows in mind.  It assumes the existence of
-Posix or Windows libraries for networking (sockets), threads and memory allocation. These libraries are intended to have these characteristics:
+Posix or Windows libraries for networking (sockets), threads and memory allocation. The embedded libraries are intended to have these characteristics:
 </p>
 
 <ul>
@@ -13,7 +13,7 @@ Posix or Windows libraries for networking (sockets), threads and memory allocati
 <li>optional higher layer(s) in C and/or C++.</li>
 </ul>
 
-<p>The libraries can be used on desktop operating systems, but is primarily aimed for environments such as <a href="http://mbed.org">mbed</a>, <a href="http://www.arduino.cc/">Arduino</a> and <a href="http://freertos.org">FreeRTOS</a>.
+<p>The libraries can be used on desktop operating systems, but are primarily aimed for environments such as <a href="http://mbed.org">mbed</a>, <a href="http://www.arduino.cc/">Arduino</a> and <a href="http://freertos.org">FreeRTOS</a>.
 </p>
 
 <p>Currently, the libraries that exist are:
@@ -56,7 +56,7 @@ Posix or Windows libraries for networking (sockets), threads and memory allocati
 
 <h4>MQTTClient</h3>
 
-<p>Here is a simple publishing and subscribing program for the MQTTClient library on Linux:<p>
+<p>Here is a simple publishing and subscribing program for the MQTTClient library on Linux:</p>
 
 <code><pre>
 #define MQTTCLIENT_QOS2 1
@@ -141,7 +141,7 @@ int main(int argc, char* argv[])
 
 <h4>MQTTPacket</h3>
 
-<p>Here is the core of a simple publishing program for the MQTTPacket library:<p>
+<p>Here is the core of a simple publishing program for the MQTTPacket library:</p>
 
 <code><pre>
 MQTTPacket_connectData data = MQTTPacket_connectData_initializer;

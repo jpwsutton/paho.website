@@ -17,14 +17,17 @@ Posix or Windows libraries for networking (sockets), threads and memory allocati
 </p>
 
 <p>Currently, the libraries that exist are:
-<ul>
-<li>MQTTPacket.  This is the lowest level library, the simplest and smallest, but hardest to use.  It simply deals with serialization and deserialization of MQTT packets.  Serialization means taking application data and converting it to a form ready for sending across the network.  Deserialization means taking the data read from the network and extracting the data.
-</li>
-<li>MQTTClient.  This is a C++ library first written for mbed, but now ported to other platforms.  Although it uses C++, it still avoids dynamic memory allocations, and has replaceable classes for OS and network dependent functions.  Use of the STL is also avoided.  It is based on, and requires, MQTTPacket.
-</li>
-<li>MQTTClient-C.  A C version of MQTTClient, for environments where C++ is not the norm, such as FreeRTOS.  Also built on top of MQTTPacket.
-</li>
-</ul>
+<dl>
+<dt>MQTTPacket</dt>  
+<dd>This is the lowest level library, the simplest and smallest, but hardest to use.  It simply deals with serialization and deserialization of MQTT packets.  Serialization means taking application data and converting it to a form ready for sending across the network.  Deserialization means taking the data read from the network and extracting the data.
+</dd>
+<dt>MQTTClient</dt>
+<dd>This is a C++ library first written for mbed, but now ported to other platforms.  Although it uses C++, it still avoids dynamic memory allocations, and has replaceable classes for OS and network dependent functions.  Use of the STL is also avoided.  It is based on, and requires, MQTTPacket.
+</dd>
+<dt>MQTTClient-C</dt>
+<dd>A C version of MQTTClient, for environments where C++ is not the norm, such as FreeRTOS.  Also built on top of MQTTPacket.
+</dd>
+</dl>
 </p>
 
 <h2 id="source">Source</h2>

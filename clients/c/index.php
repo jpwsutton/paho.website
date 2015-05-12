@@ -12,13 +12,11 @@ the operation has completed, which makes programming easier.  In contrast, no ca
 
 <h2 id="source">Source</h2>
 
-<p>Source tarballs are available. <a href="http://www.eclipse.org/downloads/download.php?file=/paho/1.0/eclipse-paho-mqtt-c-src-1.0.0.tar.gz">1.0</a>.
-
-<p>Source can also be obtained directly from the repository <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/</a></p>
+<p>Source tarballs are available from the <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/">Git repository</a>, as is the source, of course.
 
 <h2 id="download">Download</h2>
 
-<p>Pre-built release 1.0 binaries for <a href="http://www.eclipse.org/downloads/download.php?file=/paho/1.0/eclipse-paho-mqtt-c-unix-1.0.0.tar.gz">Linux</a>, <a href="http://www.eclipse.org/downloads/download.php?file=/paho/1.0/eclipse-paho-mqtt-c-windows-1.0.0.zip">Windows</a> and <a href="http://www.eclipse.org/downloads/download.php?file=/paho/1.0/eclipse-paho-mqtt-c-mac-1.0.0.tar.gz">Mac</a> are available.</p>
+<p>Pre-built binaries for Windows, Linux and Mac are available from the <a href="https://projects.eclipse.org/projects/technology.paho/downloads">downloads page</a>.
 
 <p>The Windows binaries are built with Visual Studio 2013.  If you do not have this installed, you will need to install the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=40784">Visual C++ Redistributable Packages for Visual Studio 2013</a></p>.
 

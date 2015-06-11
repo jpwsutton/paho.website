@@ -6,7 +6,7 @@
                     <div class="offset1 span5">
                         <img src="images/paho_logo_400.png" />
                         <p class="lead">
-                            The Paho project provides open-source client implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine&#8209;to&#8209;Machine (M2M) and Internet of Things (IoT).
+                            The Paho project provides open-source client implementations of MQTT and MQTT-SN messaging protocols aimed at new, existing, and emerging applications for Machine&#8209;to&#8209;Machine (M2M) and Internet of Things (IoT).
                         </p>
                     </div>
                     <div class="span5">

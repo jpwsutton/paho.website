@@ -41,7 +41,7 @@ import (
 )
 
 //define a function for the default message handler
-var f MQTT.MessageHandler = func(msg MQTT.Message) {
+var f MQTT.MessageHandler = func(client *MQTT.Client, msg MQTT.Message) {
   fmt.Printf("TOPIC: %s\n", msg.Topic())
   fmt.Printf("MSG: %s\n", msg.Payload())
 }
@@ -49,47 +49,42 @@ var f MQTT.MessageHandler = func(msg MQTT.Message) {
 func main() {
   //create a ClientOptions struct setting the broker address, clientid, turn
   //off trace output and set the default message handler
-  opts := MQTT.NewClientOptions().SetBroker("tcp://iot.eclipse.org:1883")
-  opts.SetClientId("go-simple")
-  opts.SetTraceLevel(MQTT.Off)
+  opts := MQTT.NewClientOptions().AddBroker("tcp://iot.eclipse.org:1883")
+  opts.SetClientID("go-simple")
   opts.SetDefaultPublishHandler(f)
 
   //create and start a client using the above ClientOptions
   c := MQTT.NewClient(opts)
-  _, err := c.Start()
-  if err != nil {
-    panic(err)
+  if token := c.Connect(); token.Wait() && token.Error() != nil {
+    panic(token.Error())
   }
 
   //subscribe to the topic /go-mqtt/sample and request messages to be delivered
   //at a maximum qos of zero, wait for the receipt to confirm the subscription
-  if receipt, err := c.StartSubscription(nil, "/go-mqtt/sample", MQTT.QOS_ZERO); err != nil {
-    fmt.Println(err)
+  if token := c.Subscribe("go-mqtt/sample", 0, nil); token.Wait() && token.Error() != nil {
+    fmt.Println(token.Error())
     os.Exit(1)
-  } else {
-    <-receipt
   }
 
   //Publish 5 messages to /go-mqtt/sample at qos 1 and wait for the receipt
   //from the server after sending each message
   for i := 0; i < 5; i++ {
     text := fmt.Sprintf("this is msg #%d!", i)
-    receipt := c.Publish(MQTT.QOS_ONE, "/go-mqtt/sample", text)
-    <-receipt
+    token := c.Publish("go-mqtt/sample", 0, false, text)
+    token.Wait()
   }
 
   time.Sleep(3 * time.Second)
 
   //unsubscribe from /go-mqtt/sample
-  if receipt, err := c.EndSubscription("/go-mqtt/sample"); err != nil {
-    fmt.Println(err)
+  if token := c.Unsubscribe("go-mqtt/sample"); token.Wait() && token.Error() != nil {
+    fmt.Println(token.Error())
     os.Exit(1)
-  } else {
-    <-receipt
   }
 
   c.Disconnect(250)
 }
+
 </pre>
 <?php include '../../_includes/footer.php' ?>
 

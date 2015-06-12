@@ -1,7 +1,9 @@
 <?php include '../../_includes/header.php' ?>
 
 <h1>JavaScript Client</h1>
-<p>The Paho JavaScript Client is a browser-based library that uses WebSockets to connect to an MQTT server.</p>
+<p>The Paho JavaScript Client is a browser-based library that uses WebSockets to connect to an MQTT server. 
+A simple utility to demonstrate it is included, and available 
+<a href="http://www.eclipse.org/paho/clients/js/utility/index.html">online</a>.</p>
 
 <h2 id="source">Source</h2>
 <p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/</a></p>

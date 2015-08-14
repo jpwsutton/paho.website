@@ -7,7 +7,7 @@
 <p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.m2mqtt.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.m2mqtt.git/</a></p>
 
 <h2 id="download">Download</h2>
-<p>The M2Mqtt client assemblies for using as references in your Visual Studio projects can be downloaded from <a href="https://www.eclipse.org/downloads/download.php?file=/paho/1.0/m2mqtt/M2Mqtt_3.6.0.0_bins.zip">here</a></p>
+<p>The M2Mqtt client assemblies for using as references in your Visual Studio projects can be downloaded from <a href="https://www.eclipse.org/downloads/download.php?file=/paho/1.2-milestones/m2mqtt/M2Mqtt_4.2.0.0.zip">here</a></p>
 
 <h2 id="build-from-source">Building from source</h2>
 <p>The project can be installed from the repository as well. To do this:</p>

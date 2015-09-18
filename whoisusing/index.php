@@ -1,4 +1,4 @@
-<?php include '../../_includes/header.php' ?>
+<?php include '../_includes/header.php' ?>
 
 <h1>Who is using Paho?</h1>
 

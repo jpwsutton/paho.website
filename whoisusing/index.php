@@ -5,7 +5,7 @@
 <h2>Lots of organizations are using Eclipse Paho for their MQTT client needs.
 Check out our recent user stories.</h2>
 
-<p>If you are using Paho, please tell us your story by sending an email to: icraggs@uk.ibm.com.  Thanks!</p>
+<p>If you are using Paho, please tell us your story by sending an email to: paho-success@eclipse.org.  Thanks!</p>
 
 <h2>COMPANY NAME GOES HERE</h2>
 <p>John Doe, President</p>

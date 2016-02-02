@@ -12,5 +12,5 @@ Check out our recent user stories.</h2>
 
 <p>Currently we are working in the Eyes of Things project funded by the <a href="http://eyesofthings.eu">Horizon 2020 program of the EU</a>. In this project we are using Paho and the MQTT protocol as a way to control and configure the device we are working on.  You could read more in this <a href="http://eyesofthings.eu/wp-content/uploads/2015/08/SPC15.pdf">paper</a>.</p>
 
-<?php include '../../_includes/footer.php' ?>
+<?php include '../_includes/footer.php' ?>
 

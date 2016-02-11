@@ -65,7 +65,7 @@
                                 <li><a href="/paho/clients/js/">JavaScript</a></li>
                                 <li><a href="/paho/clients/python/">Python</a></li>
                                 <li><a href="/paho/clients/golang/">Go</a></li>
-								<li><a href="/paho/clients/dotnet/">C# .Net and WinRT</a></li>
+                                <li><a href="/paho/clients/dotnet/">C# .Net and WinRT</a></li>
                                 <!-- <li><a href="/paho/clients/lua/">Lua</a></li> -->
                                 <li class="nav-header">MQTT-SN</li>
                                 <li class="dropdown-submenu"><a tabindex="-1" href="#">C/C++</a>
@@ -97,6 +97,7 @@
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
                           <ul class="dropdown-menu">
+                            <li><a href="https://projects.eclipse.org/projects/technology.paho/who">Development Team</a></li>
                             <li><a href="https://twitter.com/eclipsepaho">Twitter</a></li>
                             <li><a href="/paho/whoisusing/">Stories</a></li>
                             <li><a href="https://dev.eclipse.org/mailman/listinfo/paho-dev">Mailing List</a></li>

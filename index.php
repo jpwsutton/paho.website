@@ -3,17 +3,17 @@
         <div id="intro">
             <div class="container">
                 <div class="row">
-                    <div class="offset1 span5">
+                    <div class="span4">
                         <img src="images/paho_logo_400.png" />
                         <p class="lead">
                             The <a href="http://eclipse.org">Eclipse</a> Paho project provides open-source client implementations of MQTT and MQTT-SN messaging protocols aimed at new, existing, and emerging applications for Machine&#8209;to&#8209;Machine (M2M) and Internet of Things (IoT).
                         </p>
                     </div>
-                    <div class="span5">
+                    <div class="span4">
                     <a class="twitter-timeline" href="https://twitter.com/eclipsepaho" data-widget-id="700329712393048064">Tweets by @eclipsepaho</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     </div>
-                    <div class="span5">
+                    <div class="span4">
                     <p></p>
 <table class="table table-condensed">
 <tr><th style="padding: 10px 0; font-size: 1.1em;">Latest release: <b>1.1</b></th><th style="padding: 10px 0; font-size: 1.1em;"><a href="https://projects.eclipse.org/projects/technology.paho/downloads">Downloads</a></th></tr>

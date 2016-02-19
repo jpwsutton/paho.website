@@ -4,12 +4,12 @@
 <p>The Paho Go Client provides an MQTT client library for connection to MQTT brokers via TCP, TLS or WebSockets</p>
 
 <h2 id="source">Source</h2>
-<p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.golang.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.golang.git/</a></p>
+<p><a href="https://github.com/eclipse/paho.mqtt.golang">https://github.com/eclipse/paho.mqtt.golang</a></p>
 
 <h2 id="download">Download</h2>
 
 <p>Once you have installed Go and <a href="http://golang.org/doc/code.html">configured</a> your environment you can install the Paho Go client by running;</p>
-<pre><code>go get git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git</code></pre>
+<pre><code>go get github.com/eclipse/paho.mqtt.golang</code></pre>
 
 <!-- <h2 id="build-from-source">Building from source</h2>
 <p></p> -->
@@ -35,7 +35,7 @@ package main
 import (
   "fmt"
   //import the Paho Go MQTT library
-  MQTT "git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git"
+  MQTT "github.com/eclipse/paho.mqtt.golang"
   "os"
   "time"
 )
@@ -87,4 +87,3 @@ func main() {
 
 </pre>
 <?php include '../../_includes/footer.php' ?>
-

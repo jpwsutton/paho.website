@@ -4,7 +4,7 @@
 <p>The Paho Python Client provides a client class with support for both MQTT v3.1 and v3.1.1 on Python 2.7 or 3.x. It also provides some helper functions to make publishing one off messages to an MQTT server very straightforward. </p>
 
 <h2 id="source">Source</h2>
-<p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.python.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.python.git/</a></p>
+<p><a href="https://github.com/eclipse/paho.mqtt.python">https://github.com/eclipse/paho.mqtt.python</a></p>
 
 <h2 id="download">Download</h2>
 
@@ -14,7 +14,7 @@
 
 <h2 id="build-from-source">Building from source</h2>
 <p>The project can be installed from the repository as well. To do this:</p>
-<pre>git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.python.git
+<pre>git clone https://github.com/eclipse/paho.mqtt.python.git
 cd org.eclipse.paho.mqtt.python.git
 python setup.py install
 </pre>
@@ -51,4 +51,3 @@ client.connect("iot.eclipse.org", 1883, 60)
 client.loop_forever()
 </pre>
 <?php include '../../_includes/footer.php' ?>
-

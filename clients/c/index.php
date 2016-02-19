@@ -2,17 +2,17 @@
 
 <h1>MQTT C Client for Posix and Windows</h1>
 
-<p>The Paho MQTT C Client is a fully fledged MQTT client written in ANSI standard C.  It avoids C++ in order to be 
+<p>The Paho MQTT C Client is a fully fledged MQTT client written in ANSI standard C.  It avoids C++ in order to be
 as portable as possible.  A <a href="../cpp">C++ layer</a> over this library is also available in Paho.</p>
 
-<p>In fact there are two C APIs.  "Synchronous" and "asynchronous" for which the API calls start with MQTTClient and MQTTAsync 
+<p>In fact there are two C APIs.  "Synchronous" and "asynchronous" for which the API calls start with MQTTClient and MQTTAsync
 respectively.  The synchronous API is intended to be simpler and more helpful.  To this end, some of the calls will block until
 the operation has completed, which makes programming easier.  In contrast, no calls ever block in the asynchronous API.  All notifications of API call results are made by callbacks.  This makes the API suitable for use in windowed environments like iOS for instance, where the application is not the main thread of control.
 </p>
 
 <h2 id="source">Source</h2>
 
-<p>Source tarballs are available from the <a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.c.git/">Git repository</a>, as is the source, of course.
+<p>Source tarballs are available from the <a href="https://github.com/eclipse/paho.mqtt.c">Git repository</a>, as is the source, of course.
 
 <h2 id="download">Download</h2>
 
@@ -29,7 +29,7 @@ the operation has completed, which makes programming easier.  In contrast, no ca
 <p>The C client is built for Linux/Unix/Mac with make and gcc. To build:</p>
 
 <pre>
-git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.c.git
+git clone https://github.com/eclipse/paho.mqtt.c.git
 cd org.eclipse.paho.mqtt.c.git
 make
 </pre>
@@ -45,7 +45,7 @@ sudo make install
 <p>The Windows build uses Visual Studio or Visual C++.  Free Express versions are available.  To build:</p>
 
 <pre>
-git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.c.git
+git clone https://github.com/eclipse/paho.mqtt.c.git
 cd org.eclipse.paho.mqtt.c.git
 msbuild "Windows Build\Paho C MQTT APIs.sln" /p:Configuration=Release
 </pre>
@@ -113,4 +113,3 @@ int main(int argc, char* argv[])
 }
 </pre>
 <?php include '../../_includes/footer.php' ?>
-

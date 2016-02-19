@@ -2,7 +2,7 @@
 
 <h1>MQTT Conformance/Interoperability Testing</h1>
 
-<p>The aim of this project is to create a means by which it is easy to test both MQTT servers and client libraries, to 
+<p>The aim of this project is to create a means by which it is easy to test both MQTT servers and client libraries, to
 ensure
 <ul>
 <li>they conform to the <a href="https://www.oasis-open.org/standards#mqttv3.1.1">MQTT 3.1.1 standard</a></li>
@@ -20,13 +20,13 @@ ensure
 
 <h2 id="source">Source</h2>
 
-<p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.testing.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.testing.git/</a></p>
+<p><a href="https://github.com/eclipse/paho.mqtt.testing">https://github.com/eclipse/paho.mqtt.testing</a></p>
 
 <h2 id="download">Download</h2>
 
 <p>Use git to clone the repository
 <pre>
-git clone git://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.testing.git
+git clone https://github.com/eclipse/paho.mqtt.testing.git
 </pre>
 </p>
 
@@ -66,8 +66,7 @@ INFO 20140203 220904 Starting the MQTT server on port 1883
 python3 client_test.py [hostname:port]
 </pre>
 
-as a first test. If hostname:port are not specified, localhost:1883 is assumed. 
+as a first test. If hostname:port are not specified, localhost:1883 is assumed.
 </p>
 
 <?php include '../../_includes/footer.php' ?>
-

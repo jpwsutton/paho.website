@@ -6,11 +6,11 @@
 <p>The Paho Java Client provides two APIs: MqttAsyncClient provides a fully asychronous API where completion of activities is notified via registered callbacks. MqttClient is a synchronous wrapper around MqttAsyncClient where functions appear synchronous to the application.</p>
 
 <h2 id="source">Source</h2>
-<p><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.java.git/">http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.java.git/</a></p>
+<p><a href="https://github.com/eclipse/paho.mqtt.java">https://github.com/eclipse/paho.mqtt.java</a></p>
 
 <h2 id="building-from-source">Building from source</h2>
 <p>There are two active branches on the Paho Java git repository, "master" which is used to produce stable releases, and "develop" where active development is carried out. By default cloning the git repository will download the "master" branch, to download "develop" add <code>-b develop</code> to the end of the <code>git clone</code> line below</p>
-<pre><code>git clone http://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.java.git
+<pre><code>git clone https://github.com/eclipse/paho.mqtt.java.git
 cd org.eclipse.paho.mqtt.java.git
 mvn package -DskipTests
 </code></pre>

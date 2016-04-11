@@ -27,21 +27,21 @@
                <!-- Feature Row -->
                <div class="row">
                    <div class="col-md-4">
-                       <h2><i><img src="images/communication.png"></i></h2>
+                       <h2><i><img src="/paho/images/communication.png"></i></h2>
                        <div><h2>&nbsp;</h2></div>
                        <p class="lead">For Constrained Networks</p>
                        <p>M2M and IoT systems need to deal with frequent network disruption and intermittent, slow, or poor quality networks. Minimal data costs are crucial on networks with millions and billons of connected devices.</p>
 
                    </div>
                    <div class="col-md-4">
-                       <h2><i><img src="images/chip.png"></i></h2>
+                       <h2><i><img src="/paho/images/chip.png"></i></h2>
                        <div><h2>&nbsp;</h2></div>
                        <p class="lead">Devices and Embedded Platforms</p>
                        <p>Devices and edge-of-network servers often have very limited processing resources available. Paho understands small footprint clients and corresponding server support.</p>
 
                    </div>
                    <div class="col-md-4">
-                       <h2><i><img src="images/scale.png"></i></h2>
+                       <h2><i><img src="/paho/images/scale.png"></i></h2>
                        <div><h2>&nbsp;</h2></div>
                        <p class="lead">Reliable</p>
                        <p>Paho focuses on reliable implementations that will integrate with a wide range of middleware, programming and messaging models.</p>
@@ -102,7 +102,7 @@
                </p>
           </div>
           <div class="col-md-4">
-            <div class="span3" style="padding-top: 100px;"><img src="images/mqttorg-glow.png" /></div>
+            <div class="span3" style="padding-top: 100px;"><img src="/paho/images/mqttorg-glow.png" /></div>
           </div>
       </div>
   </div>

@@ -29,6 +29,14 @@ code {
     background-color: #222;
     color: #eee6cb;
 }
+.headerText span{
+    color: #eee6cb;
+}
+
+.headerText span a{
+    color: #eee6cb;
+}
+
 
 .navbar-inverse {
     border-color: #222;
@@ -85,7 +93,7 @@ code {
 }
 
 .footer-links > li > a{
-    color: #eff4f7;
+    color: #eee6cb;
 }
 
 
@@ -130,4 +138,52 @@ pre.prettyprint {
 }
 .middle-container{
     margin-bottom: 30px;
+}
+
+.middle-container img
+{
+    display: block;
+    margin-right: auto;
+	margin-left: auto;
+}
+
+.middle-container h2 i
+{
+    display: block;
+    margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+    height: 100px;
+    width: 100px;
+    line-height: 60px;
+
+	margin-bottom: -48px;
+
+    -moz-border-radius: 63px; /* or 50% */
+    border-radius: 63px; /* or 50% */
+    background-color: rgba(255,255,255,.6);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.lead {
+    text-align: center;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
 }

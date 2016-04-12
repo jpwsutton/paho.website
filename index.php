@@ -53,7 +53,11 @@
        <div class="item">
 
          <div class="container">
-             <h1>Twitter feed goes here...</h1>
+             <div class="row" id="tweet">
+                 <div class="col-md-4" id="tweet-0"></div>
+                 <div class="col-md-4" id="tweet-1"></div>
+                 <div class="col-md-4" id="tweet-2"></div>
+             </div>
             </div>
        </div>
        <div class="item">
@@ -107,4 +111,7 @@
       </div>
   </div>
 </div>
+<script src="/paho/js/twitterFetcher_min.js" type="text/javascript"></script>
+<script src="/paho/js/twitterFeed.js" type="text/javascript"></script>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 <?php include '_includes/bare_footer.php' ?>

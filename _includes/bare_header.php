@@ -110,7 +110,7 @@
                               <li><a href="https://bugs.eclipse.org/bugs/describecomponents.cgi?product=Paho">Bug Tracker</a></li>
                             </ul>
                           </li>
-                           <li><a href="#">Examples</a></li>
+                           <li><a href="/paho/snippets/snippets.php">Examples</a></li>
                         </ul>
                           <ul class="nav pull-right">
                               <li class="headerText"><span>Paho is an <a style="display: inline-block; padding-left: 0px; padding-right: 0px;" href="http://iot.eclipse.org">iot.eclipse.org</a> project</span>

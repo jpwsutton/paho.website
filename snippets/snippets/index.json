@@ -1,0 +1,82 @@
+{
+    "Custom TLS Certificate in Java" : {
+        "description" : "This snippet shows you how to use a custom self-signed Certificate to connect in the Java client",
+        "language" : "java",
+        "file" : "java_tls.java"
+    },
+    "Simple Python Subscribe": {
+        "description" : "This snippet shows how to subscribe to a topic and prints incoming messages to the console.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Another Python Example": {
+        "description" : "The Python client allows you to connect to a server and publish a message in one line, here's how.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Python Example with TLS": {
+        "description" : "This example shows you how to connect to a MQTT server using TLS with the python client.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Simple Python Subscribe1": {
+        "description" : "This snippet shows how to subscribe to a topic and prints incoming messages to the console.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Another Python Example2": {
+        "description" : "The Python client allows you to connect to a server and publish a message in one line, here's how.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Python Example with TLS3": {
+        "description" : "This example shows you how to connect to a MQTT server using TLS with the python client.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Simple Python Subscribe4": {
+        "description" : "This snippet shows how to subscribe to a topic and prints incoming messages to the console.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Another Python Example5": {
+        "description" : "The Python client allows you to connect to a server and publish a message in one line, here's how.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Python Example with TLS6": {
+        "description" : "This example shows you how to connect to a MQTT server using TLS with the python client.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Simple Python Subscribe7": {
+        "description" : "This snippet shows how to subscribe to a topic and prints incoming messages to the console.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Another Python Example8": {
+        "description" : "The Python client allows you to connect to a server and publish a message in one line, here's how.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Python Example with TLS9": {
+        "description" : "This example shows you how to connect to a MQTT server using TLS with the python client.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Simple Python Subscribe10": {
+        "description" : "This snippet shows how to subscribe to a topic and prints incoming messages to the console.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Another Python Example11": {
+        "description" : "The Python client allows you to connect to a server and publish a message in one line, here's how.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    },
+    "Python Example with TLS12": {
+        "description" : "This example shows you how to connect to a MQTT server using TLS with the python client.",
+        "language" : "python",
+        "file" : "one_line_pub.py"
+    }
+}
